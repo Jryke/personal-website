@@ -22,7 +22,7 @@ const WorkExperience = () => {
 						</h3>
 						<span className="row">Duties:</span>
 						<ul>
-							<li>Sales of accounts and SaaS (primarily by phone and email)</li>
+							<li>Sales of merchant accounts and SaaS</li>
 							<li>Account representative for the lifetime of the account – maintenance (management) and customer service for accounts</li>
 							<li>Selling/working for 3 different brands within company as an English and Spanish representative</li>
 							<li>Experience in sales and extensive knowledge of credit card processing industry</li>
