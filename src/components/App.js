@@ -9,6 +9,7 @@ import WorkExperience from './WorkExperience';
 import Portfolio from './Portfolio';
 import Blog from './Blog';
 import Footer from './Footer';
+import '../styles/global.css'
 
 
 const App = () => {
