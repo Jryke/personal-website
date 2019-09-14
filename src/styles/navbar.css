@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	height: 20px;
+	width: 100%;
+	padding: 12px;
+	background: rgb(32, 130, 202);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+nav ul {
+	margin: 0;
+	float: right;
+}
+.nav-name {
+	padding: 3em;
+	color: white;
+}
+.nav-link {
+	display: inline-block;
+	margin-right: 3em;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
