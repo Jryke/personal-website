@@ -13,7 +13,7 @@ import Footer from './Footer';
 
 const App = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <Introduction />
             <Bio />
@@ -24,7 +24,7 @@ const App = () => {
             <Portfolio />
             <Blog />
             <Footer />
-        </div>
+        </>
     );
 };
 
