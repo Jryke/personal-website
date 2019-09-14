@@ -10,7 +10,7 @@ const Navbar = () => {
 		        <img src="#" alt="JR" />
 		    </div>
 				*/}
-				<span className="nav-name">Jesse Rykerson</span>
+				<span className="nav-name"><a href="/">Jesse Rykerson</a></span>
 				<ul>
 					<li className="nav-link"><a href="#bio">Bio</a></li>
 			    <li className="nav-link"><a href="#skills">Skills</a></li>

@@ -4,6 +4,9 @@ body {
 }
 .center {
 	margin: auto;
-	width: 50%;
+	width: 65%;
 	text-align: center;
+}
+.section {
+	padding-top: 3em;
 }
