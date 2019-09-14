@@ -1,39 +1,50 @@
 import React from 'react';
+import '../styles/skills.css'
 
 const Skills = () => {
   return (
-    <div id="skills" className="ui center aligned grid container" style={{padding: "3em"}}>
-      <h2 className="row">Skills:</h2>
+    <div id="skills" className="center section">
+      <h2>Skills:</h2>
       <div className="list">
         <h3>Technologies and Libraries:</h3>
 				<h4>Front-end:</h4>
-        <div className="item">HTML5</div>
-        <div className="item">CSS3</div>
-        <div className="item">Modern JavaScript</div>
-        <div className="item">React.js</div>
-        <div className="item">Redux</div>
-				<div className="item">Bootstrap</div>
-        <div className="item">Semantic UI</div>
-        <div className="item">jQuery</div>
-        <div className="item">Sass</div>
+				<div className='listWrapper'>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>JavaScript ECMAScript 2019</li>
+						<li>React.js</li>
+						<li>Redux</li>
+						<li>Bootstrap</li>
+						<li>Semantic UI</li>
+						<li>jQuery</li>
+						<li>Sass</li>
+					</ul>
+				</div>
+
 
 				<h4>Back-end:</h4>
-				<div className="item">Node</div>
-				<div className="item">Express</div>
-				<div className="item">MongoDB</div>
+				<ul>
+					<li>Node</li>
+					<li>Express</li>
+					<li>MongoDB</li>
+				</ul>
 
 				<h4>Other applications:</h4>
-        <div className="item">MS Office Suite</div>
-        <div className="item">Adobe Photoshop</div>
+				<ul>
+					<li>MS Office Suite</li>
+					<li>Adobe Photoshop</li>
+				</ul>
+
       </div>
       <br />
-      <div className="row">
-        <div className="list">
-          <h3>Skills:</h3>
-          <div className="item">Bilingual: fluent in English and Spanish</div>
-          <div className="item">Creative, self-motivated, goal oriented and an avid learner</div>
-          <div className="item">Effective team member and team leader</div>
-        </div>
+      <div>
+        <h3>Other Skills:</h3>
+				<ul>
+					<li>Bilingual: fluent in English and Spanish</li>
+					<li>Creative, self-motivated, goal oriented and an avid learner</li>
+					<li>Effective team member and team leader</li>
+				</ul>
       </div>
     </div>
   )
