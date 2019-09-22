@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import '../styles/introduction.css'
 
 const Introduction = () => {
@@ -6,15 +7,14 @@ const Introduction = () => {
 		<div className='intro-background'>
 			<div className='intro-background-overlay'>
 				<div className='center intro-box'>
-					<ul className='nav'>
-						<li className='nav-link'><a href='#bio'>Bio</a></li>
-						<li className='nav-link'><a href='#skills'>Skills</a></li>
-						<li className='nav-link'><a href='#experience'>Experience</a></li>
-						<li className='nav-link'><a href='#education'>Education</a></li>
-						<li className='nav-link'><a href='#portfolio'>Portfolio</a></li>
-						<li className='nav-link'><a href='#'>Resume</a></li>
-						<li className='nav-link'><a href='#blog'>Blog</a></li>
-						<li className='nav-link'><a href='#'>Contact</a></li>
+					<ul className='intro-nav'>
+						<li className='intro-nav-link'><Link to='/about'>About</Link></li>
+						<li className='intro-nav-link'><Link to='/skills'>Skills</Link></li>
+						<li className='intro-nav-link'><Link to='./experience'>Experience</Link></li>
+						<li className='intro-nav-link'><Link to='./education'>Education</Link></li>
+						<li className='intro-nav-link'><Link to='./portfolio'>Portfolio</Link></li>
+						<li className='intro-nav-link'><a href='#'>Resume</a></li>
+						<li className='intro-nav-link'><a href='#'>Contact</a></li>
 					</ul>
 					<div className='intro-box-content'>
 			      <h1>JESSE RYKERSON</h1>

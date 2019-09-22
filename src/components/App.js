@@ -1,7 +1,7 @@
 import React from 'react';
 import Introduction from './Introduction';
 import Skills from './Skills';
-import Bio from './Bio';
+import About from './About';
 import FormalEducation from './FormalEducation';
 import InformalEducation from './InformalEducation';
 import WorkExperience from './WorkExperience';
@@ -15,7 +15,7 @@ const App = () => {
     return (
         <>
             <Introduction />
-            <Bio />
+            <About />
             <Skills />
             <WorkExperience />
             <FormalEducation />

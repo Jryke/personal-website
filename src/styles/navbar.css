@@ -2,7 +2,7 @@ nav {
 	height: 18px;
 	width: 100%;
 	padding: 12px;
-	background: rgb(32, 130, 202);
+	background: rgba(0, 0, 0, .75);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -15,9 +15,12 @@ nav ul {
 	padding: 3em;
 	color: white;
 }
-.nav-link {
-	display: inline-block;
-	margin-right: 3em;
+.nav {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	grid-gap: 2em;
+	padding-left: 7%;
+	list-style: none;
 }
 nav a {
 	color: white;

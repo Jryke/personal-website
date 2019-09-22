@@ -19,18 +19,18 @@
 	background: rgba(0, 0, 0, .75);
 	color: white;
 }
-.nav {
+.intro-nav {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto;
 	grid-gap: 2em;
-	padding: .5em 1em;
+	padding-left: 7%;
+	list-style: none;
 }
-.nav-link {
-	display: inline-block;
+.intro-nav-link {
 	font-weight: 700;
 }
 /* this will need to be fixed when a links are replaced byreact router links */
-.nav-link a {
+.intro-nav-link a {
 	color: white;
 	text-decoration: none;
 	font-weight: 700;

@@ -8,9 +8,9 @@ body {
 }
 .center {
 	margin: auto;
-	width: 65%;
 	text-align: center;
 }
 .section {
 	padding-top: 3em;
+	width: 65%;
 }

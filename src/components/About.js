@@ -1,8 +1,11 @@
-import React from "react";
-// import '../styles/bio.css'
+import React from "react"
+import Navbar from './Navbar'
+import '../styles/about.css'
 
-const Bio = () => {
+const About = () => {
   return (
+		<>
+		<Navbar />
 	  <div id='bio' className='center section'>
       <h2>Bio:</h2>
 			<div>
@@ -60,9 +63,9 @@ const Bio = () => {
 					I grew up speaking English and after finishing my undergraduate degree, I decided that I wanted to take some time to really learn Spanish.  I was determined to not just learn Spanish but master it.  After learning some Spanish, my interest in language let me to teach English and get a masters degree in Applied Linguistics at UMass Boston.  Once I completed my masters degree, I lived in Barranquilla, Colombia for four years teaching English and polishing my Spanish.  While living there, I learned Spanish and Coste&#241;ol (caribbean style Spanish).  Learning Spanish as well as I did gave me supreme confidence that I can learn anything as long as I put the time and effort forward.  I am now fluent in Spanish and I have studied Portuguese.  Most recently I have learned JavaScript which although not a human language, I still consider learning another language.  While learning JavaScript, I found that computer languages are more similar to human languages than I had thought.  All languages, human or computer, fascinate me.
 				</p>
 			</div>
-
 	  </div>
+		</>
   )
 }
 
-export default Bio
+export default About
