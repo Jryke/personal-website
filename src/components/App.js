@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Introduction from './Introduction';
 import Skills from './Skills';
 import Bio from './Bio';
@@ -15,7 +14,6 @@ import '../styles/global.css'
 const App = () => {
     return (
         <>
-            <Navbar />
             <Introduction />
             <Bio />
             <Skills />
