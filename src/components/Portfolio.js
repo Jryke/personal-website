@@ -8,7 +8,7 @@ const Portfolio = () => {
 	return (
 	<>
 		<Navbar />
-		<Header componentName={'portfolio'} />
+		<Header componentName={'portfolio'} text={'portfolio'} />
 		<div className="center portfolio section background-grey">
 			<h1>Portfolio:</h1>
 			<div className='grid-row-container'>

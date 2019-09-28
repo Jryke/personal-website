@@ -8,7 +8,7 @@ const WorkExperience = () => {
 	return (
 		<>
 			<Navbar />
-			<Header componentName={'experience'} />
+			<Header componentName={'experience'} text={'experience'} />
 			<div className='center experience background-grey'>
 				<div className='experience-body-background-overlay'>
 					<div className='grid-row-container'>

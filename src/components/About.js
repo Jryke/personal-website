@@ -8,7 +8,7 @@ const About = () => {
   return (
 		<>
 			<Navbar />
-			<Header componentName={'about'} />
+			<Header componentName={'about'} text={'Get To Know Me'}/>
 			<div className='center about'>
 				<div className='-container'>
 					<div className='grid-row'>

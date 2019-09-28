@@ -8,7 +8,7 @@ const Skills = () => {
   return (
 		<>
 			<Navbar />
-			<Header componentName={'skills'} />
+			<Header componentName={'skills'} text={'skills'} />
 			<div className='center skills section background-grey'>
 				<h1>Technologies and Libraries:</h1>
 				<div className='grid-row-container'>

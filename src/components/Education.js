@@ -8,7 +8,7 @@ const Education = () => {
 	return (
 		<>
 		<Navbar />
-		<Header componentName={'education'} />
+		<Header componentName={'education'} text={'education'} />
 		<div className='center education background-grey'>
 			<div className='experience-body-background-overlay'>
 				<div className='grid-row-container'>

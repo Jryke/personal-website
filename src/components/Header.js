@@ -7,7 +7,7 @@ class Header extends React.Component {
 			<div className={`${this.props.componentName}-header-background`}>
 				<div className={`${this.props.componentName}-header-background-overlay`}>
 					<div className={`${this.props.componentName}-header-text-container`}>
-						<h1 className={`${this.props.componentName}-header-text`}>{this.props.componentName}</h1>
+						<h1 className={`${this.props.componentName}-header-text`}>{this.props.text}</h1>
 					</div>
 				</div>
 			</div>
