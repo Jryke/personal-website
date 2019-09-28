@@ -1,0 +1,29 @@
+.footer {
+	z-index: 10;
+	/* height: 36px; */
+	width: 100%;
+	background: rgba(0, 0, 0, .75);
+	position: fixed;
+	bottom: 0;
+}
+.footer-center {
+	display: inline-block;
+	text-align: center;
+	margin-left: 40%;
+	width: 20%;
+	/* border: 1px solid yellow; */
+}
+.footer-right {
+	float:right;
+	padding: 0 3em;
+}
+.footer-text {
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	text-align: right;
+	margin: 12px 2px;
+}
+.footer span {
+	/* border: 1px solid red; */
+}

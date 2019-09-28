@@ -1,12 +1,15 @@
-import React from 'react';
+import React from 'react'
+import '../styles/footer.css'
 
 const Footer = () => {
     return (
-        <div className="ui grid">
-            <div className="two column centered row">
-                <h5 className="ui left floated right aligned column">Designed using React.js</h5>
-            </div>
-        </div>
+      <div className='footer'>
+				<div className='footer-center'>
+					<span className='footer-text'>Designed using</span>
+					<span className='footer-text'><i class='fab fa-react'></i>React.js</span>
+				</div>
+				<span className='footer-text footer-right'>All photos taken by or of me</span>
+      </div>
     )
 }
 export default Footer
