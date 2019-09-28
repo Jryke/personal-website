@@ -1,0 +1,30 @@
+.experience-header-background {
+	position: relative;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url('/images/IMG_8104.jpg') center top;
+	background-size: 100vw auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.experience-header-background-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+}
+.experience-header-text-container {
+	position: relative;
+	top: 65%;
+	left: 40%;
+	font-size: 4em;
+	width: 100px;
+}
+.experience-header-text {
+	color: white;
+	text-align: center;
+}
+/* .experience-body-background-overlay {
+	background: rgba(255, 255, 255, 0.8);
+} */
