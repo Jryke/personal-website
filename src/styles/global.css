@@ -20,8 +20,7 @@ body {
 }
 .section {
 	padding: 3em 0;
-	/* width: 90%; */
 }
 .background-grey {
-	background: rgba(0, 0, 0, .05);
+	background: #E7DFDD;
 }
