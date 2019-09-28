@@ -1,18 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Header from './Header'
 import '../styles/workexperience.css'
 
 const WorkExperience = () => {
 	return (
 		<>
 			<Navbar />
-			<div className='experience-header-background'>
-				<div className='experience-header-background-overlay'>
-					<div className='experience-header-text-container'>
-						<h1 className='experience-header-text'>Experience</h1>
-					</div>
-				</div>
-			</div>
+			<Header componentName={'experience'} />
 			<div className='center experience background-grey'>
 				<div className='experience-body-background-overlay'>
 					<div className='grid-row-container'>

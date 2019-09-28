@@ -1,18 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Header from './Header'
 import '../styles/education.css'
 
 const Education = () => {
 	return (
 		<>
 		<Navbar />
-		<div className='education-header-background'>
-			<div className='education-header-background-overlay'>
-				<div className='education-header-text-container'>
-					<h1 className='education-header-text'>Education</h1>
-				</div>
-			</div>
-		</div>
+		<Header componentName={'education'} />
 		<div className='center education background-grey'>
 			<div className='experience-body-background-overlay'>
 				<div className='grid-row-container'>

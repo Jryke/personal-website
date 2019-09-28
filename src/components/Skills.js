@@ -1,18 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar'
+import Header from './Header'
 import '../styles/skills.css'
 
 const Skills = () => {
   return (
 		<>
 			<Navbar />
-			<div className='skills-header-background'>
-				<div className='skills-header-background-overlay'>
-					<div className='skills-header-text-container'>
-						<h1 className='skills-header-text'>skills</h1>
-					</div>
-				</div>
-			</div>
+			<Header componentName={'skills'} />
 			<div className='center skills section background-grey'>
 				<h1>Technologies and Libraries:</h1>
 				<div className='grid-row-container'>

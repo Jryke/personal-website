@@ -1,18 +1,13 @@
 import React from "react"
 import Navbar from './Navbar'
+import Header from './Header'
 import '../styles/about.css'
 
 const About = () => {
   return (
 		<>
 			<Navbar />
-			<div className='about-header-background'>
-				<div className='about-header-background-overlay'>
-					<div className='about-header-text-container'>
-						<h1 className='about-header-text'>Get to know me</h1>
-					</div>
-				</div>
-			</div>
+			<Header componentName={'about'} />
 			<div className='center about'>
 				<div className='-container'>
 					<div className='grid-row'>
