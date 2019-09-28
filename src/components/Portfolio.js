@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
+import Footer from './Footer'
 import '../styles/portfolio.css'
 
 const Portfolio = () => {
@@ -28,6 +29,7 @@ const Portfolio = () => {
 				</div>
 			</div>
 		</div>
+		<Footer />
 	</>
 	)
 }

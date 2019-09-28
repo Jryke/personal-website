@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
+import Footer from './Footer'
 import '../styles/education.css'
 
 const Education = () => {
@@ -63,8 +64,7 @@ const Education = () => {
 				</div>
 			</div>
 		</div>
-
-
+		<Footer />
 		</>
 	)
 }

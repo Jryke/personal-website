@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
+import Footer from './Footer'
 import '../styles/workexperience.css'
 
 const WorkExperience = () => {
@@ -71,6 +72,7 @@ const WorkExperience = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
     )
 }
