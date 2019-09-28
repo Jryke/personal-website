@@ -6,6 +6,7 @@ const WorkExperience = () => {
 		<>
 			<Navbar />
 			<div className="center experience section">
+				<h1>Independent contractor building websites</h1>
 				<h2>Professional Work Experience</h2>
 				<h3>
 					Professor of English - Boston Language Institute
