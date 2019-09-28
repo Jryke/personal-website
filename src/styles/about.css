@@ -22,14 +22,6 @@
 	color: white;
 	text-align: center;
 }
-.about-container {
-	display: grid;
-	grid-template-rows: auto auto auto;
-}
-.about-row {
-	display: grid;
-	grid-template-columns: 50% 50%;
-}
 .about-picture {
 	padding: 40px;
 }
