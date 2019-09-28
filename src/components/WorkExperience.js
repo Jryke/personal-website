@@ -13,7 +13,7 @@ const WorkExperience = () => {
 					</div>
 				</div>
 			</div>
-			<div className='center experience'>
+			<div className='center experience background-grey'>
 				<div className='experience-body-background-overlay'>
 					<div className='grid-row-container'>
 						<div className='grid-row'>
