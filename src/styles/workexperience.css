@@ -1,3 +1,6 @@
+.experience {
+	padding: 4rem;
+}
 .experience-header-background {
 	position: relative;
 	top: 0;
@@ -16,15 +19,74 @@
 }
 .experience-header-text-container {
 	position: relative;
-	top: 65%;
+	top: 50%;
 	left: 40%;
-	font-size: 4em;
+	font-size: 4rem;
 	width: 100px;
 }
 .experience-header-text {
 	color: white;
 	text-align: center;
 }
-/* .experience-body-background-overlay {
-	background: rgba(255, 255, 255, 0.8);
-} */
+.experience-grid-row {
+	/* padding: 2rem 0 2rem 25%; */
+
+	/* border: 1px solid red; */
+	display: grid;
+	grid-template-columns: 42.5% 57.5%;
+	/* grid-column-gap: 2%; */
+}
+.jesse {
+	font-family: 'Lora';
+	font-size: 4rem;
+	line-height: 0;
+	padding-left: 6px;
+	margin-top: 1.5rem;
+	/* margin-top: 3rem; */
+}
+.rykerson {
+	font-family: 'Lora';
+	font-size: 8rem;
+	color: #4717F6;
+	line-height: 0;
+	/* margin-bottom: 8rem; */
+}
+.job-info {
+	padding: 1.5rem 0;
+}
+.job-title {
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 0;
+}
+.job-dates {
+	margin: auto;
+	line-height: 2rem;
+	/* padding: 1rem 0; */
+	/* font-size: 1.2em; */
+	color: grey;
+	font-style: italic;
+}
+.duties-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.duties-list li {
+	font-family: 'Lora';
+	/* padding: 0; */
+}
+.experience-picture-wrapper {
+	padding-right: 4em;
+	/* height: 80%; */
+}
+.experience-picture {
+	background: url('/images/IMG_3213.jpg') center top;
+	background-size: cover;
+	height: 100%;
+	/* border: 1px solid green; */
+}
+.experience-info {
+	padding: 0;
+	/* border: 1px solid yellow; */
+}
