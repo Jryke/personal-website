@@ -10,10 +10,18 @@ body {
 	margin: auto;
 	text-align: center;
 }
+.grid-row-container {
+	display: grid;
+	grid-template-rows: auto auto auto;
+}
+.grid-row {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
 .section {
 	padding: 3em 0;
 	/* width: 90%; */
 }
-.grey-background {
+.background-grey {
 	background: rgba(0, 0, 0, .05);
 }
