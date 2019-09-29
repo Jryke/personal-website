@@ -10,7 +10,7 @@ const Skills = () => {
 			<Navbar />
 			<Header componentName={'skills'} text={'skills'} />
 			<div className='skills background-grey'>
-				<h1 className='skills-body-header'>Technologies and Libraries:</h1>
+				<h1 className='body-header'>Technologies and Libraries:</h1>
 				<div className='grid-row-container'>
 					<div className='grid-row'>
 						<div className='skills-list-wrapper'>

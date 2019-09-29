@@ -28,14 +28,6 @@
 .skills {
 	padding: 3rem 10%;
 }
-.skills-body-header {
-	font-family: 'Lora';
-	font-size: 5rem;
-	text-align: center;
-	/* color: #4717F6; */
-	line-height: 0;
-	padding-bottom: 3rem;
-}
 .skills-picture {
 	background-image: url('/images/20181221_123658.jpg');
 	background-size:'cover';
