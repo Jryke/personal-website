@@ -1,3 +1,6 @@
+.education {
+	padding: 5%;
+}
 .education-header-background {
 	position: relative;
 	top: 0;
@@ -25,7 +28,25 @@
 	color: white;
 	text-align: center;
 }
-
-.education ul {
-	list-style: none;
+.education-grid {
+	display: grid;
+	grid-template-columns: 30% 65%;
+	grid-column-gap: 5%
+}
+.education-title {
+	font-size: 2rem;
+	font-weight: 400;
+	/* color: #4717F6; */
+	margin: 0;
+	text-align: right;
+	/* border: 1px solid red; */
+}
+.education-details {
+	padding-bottom: 2rem;
+	/* border: 1px solid red; */
+}
+.education-details p {
+	font-family: 'Lora';
+	margin: 6px 0 1rem 0;
+	/* border: 1px solid yellow; */
 }

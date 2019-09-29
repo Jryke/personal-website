@@ -9,58 +9,43 @@ const Education = () => {
 		<>
 		<Navbar />
 		<Header componentName={'education'} text={'education'} />
-		<div className='center education background-grey'>
-			<div className='experience-body-background-overlay'>
-				<div className='grid-row-container'>
-					<div className='grid-row'>
-						<div>
-							<h1>Formal Education:</h1>
-							<ul>
-								<li>
-									<h2>Graduate:</h2>
-									<span>University of Massachusetts Boston</span>
-									<br />
-									<span>MA in Applied Linguistics</span>
-									<br />
-									<span>GPA: 3.75</span>
-								</li>
-								<li>
-									<h2>Undergraduate:</h2>
-									<span>University of Colorado Boulder</span>
-									<br />
-									<span>BA in Anthropology</span>
-								</li>
-								<li>
-									<h2>HighSchool:</h2>
-									<span>Cambridge Rindge & Latin High School</span>
-								</li>
-							</ul>
-						</div>
-						<div>
-							<h1>Informal Education</h1>
-							<ul>
-								<li>
-									<h2>Harvard Extension School:</h2>
-									<p>Web Programming/JavaScript Course <br />
-									Grade: A</p>
-								</li>
-								<li>
-									<h2>Tortuga Coders</h2>
-									<p>9-week full-stack JavaScript web development bootcamp</p>
-								</li>
-								<li>
-									<h2>Udemy:</h2>
-									<p>Modern JavaScript Bootcamp (2019) <br />
-									Modern React With Redux</p>
-								</li>
-								<li>
-									<h2>FreeCodeCamp.org:</h2>
-									<p>Responsive Web Design Certification <br />
-									JavaScript Algorithms and Data Structures Certification</p>
-								</li>
-							</ul>
-						</div>
-					</div>
+		<div className='education background-grey'>
+			<h1 className='body-header'>Formal Education</h1>
+			<div className='education-grid'>
+				<h2 className='education-title'>Graduate</h2>
+				<div className='education-details'>
+					<p>University of Massachusetts Boston</p>
+					<p>MA in Applied Linguistics</p>
+					<p>GPA: 3.75</p>
+				</div>
+				<h2 className='education-title'>Undergraduate</h2>
+				<div className='education-details'>
+					<p>University of Colorado Boulder</p>
+					<p>BA in Anthropology</p>
+				</div>
+				<h2 className='education-title'>HighSchool</h2>
+				<p>Cambridge Rindge & Latin High School</p>
+			</div>
+			<h1 className='body-header'>Informal Education</h1>
+			<div className='education-grid'>
+				<h2 className='education-title'>Harvard Extension</h2>
+				<div className='education-details'>
+					<p>Web Programming/JavaScript Course</p>
+					<p>Grade: A</p>
+				</div>
+				<h2 className='education-title'>Tortuga Coders</h2>
+				<div className='education-details'>
+					<p className='education-details'>9-week full-stack JavaScript web development bootcamp</p>
+				</div>
+				<h2 className='education-title'>Udemy</h2>
+				<div className='education-details'>
+					<p>Modern JavaScript Bootcamp (2019)</p>
+					<p>Modern React With Redux</p>
+				</div>
+				<h2 className='education-title'>FreeCodeCamp.org</h2>
+				<div className='education-details'>
+					<p>Responsive Web Design Certification</p>
+					<p>JavaScript Algorithms and Data Structures Certification</p>
 				</div>
 			</div>
 		</div>
