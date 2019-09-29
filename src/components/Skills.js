@@ -50,7 +50,7 @@ const Skills = () => {
 								<h2 className='skills-title'>Other Skills</h2>
 								<ul className='skills-list'>
 									<li>Bilingual: fluent in English and Spanish</li>
-									<li>Creative, self-motivated, goal oriented and an avid learner</li>
+									<li>Creative, self-motivated, and goal oriented</li>
 									<li>Effective team member and team leader</li>
 								</ul>
 							</div>
