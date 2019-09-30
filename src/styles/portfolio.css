@@ -1,3 +1,6 @@
+.portfolio {
+	padding: 5%;
+}
 .portfolio-header-background {
 	position: relative;
 	top: 0;
@@ -21,11 +24,39 @@
 	font-size: 4em;
 	width: 100px;
 }
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: 55% 40%;
+	grid-column-gap: 5%;
+}
 .portfolio-header-text {
 	color: white;
 	text-align: center;
 }
-
+.portfolio-img-container {
+	display: block;
+	height: 25rem;
+	margin: 0 20% 0 20%;
+}
+.nels-img {
+	height: 100%;
+	width: auto;
+	background: url(/images/nels-website.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.project-info {
+	font-size: 2rem;
+	/* border: 1px solid red; */
+}
+.project-info p {
+	margin: 0 0 1rem 0;
+}
 .portfolio ul {
 	list-style: none;
+	font-size: 2rem;
+	margin-top: 0;
+}
+.portfolio li {
+	margin-bottom: 1rem;
 }
