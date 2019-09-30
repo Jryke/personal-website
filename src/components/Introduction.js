@@ -8,7 +8,7 @@ const Introduction = () => {
 		<>
 			<div className='intro-background'>
 				<div className='intro-background-overlay'>
-					<div className='center intro-box'>
+					<div className='intro-box'>
 						<ul className='intro-nav'>
 							<li className='intro-nav-link'><Link to='./portfolio'>Portfolio</Link></li>
 							<li className='intro-nav-link'><Link to='/skills'>Skills</Link></li>
@@ -19,7 +19,10 @@ const Introduction = () => {
 							<li className='intro-nav-link'><a href='#'>Contact</a></li>
 						</ul>
 						<div className='intro-box-content'>
-				      <h1>JESSE RYKERSON</h1>
+							<div>
+								<h1 className='jesse'>Jesse</h1>
+								<h1 className='rykerson'>RYKERSON</h1>
+							</div>
 				      <h2>WEB/APP DEVELOPER</h2>
 							<div className='intro-button'>Contact</div>
 							<div className='intro-button'>Resume</div>
