@@ -12,7 +12,7 @@ const About = () => {
 			<div className='about'>
 				<div className='about-me-grid-col about-padding'>
 					<div className='about-picture'>
-						<div style={{backgroundImage:`url('/images/20171208_142905.jpg')`, backgroundSize:'cover', }}></div>
+						<div className='cartagena-picture'></div>
 					</div>
 					<div>
 						<div className='about-details'>
