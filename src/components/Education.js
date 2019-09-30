@@ -26,7 +26,7 @@ const Education = () => {
 				<h2 className='education-title'>HighSchool</h2>
 				<p>Cambridge Rindge & Latin High School</p>
 			</div>
-			<h1 className='body-header'>Informal Education</h1>
+			<h1 className='body-header section'>Informal Education</h1>
 			<div className='education-grid'>
 				<h2 className='education-title'>Harvard Extension</h2>
 				<div className='education-details'>
