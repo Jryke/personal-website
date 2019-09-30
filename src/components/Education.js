@@ -35,7 +35,7 @@ const Education = () => {
 				</div>
 				<h2 className='education-title'>Tortuga Coders</h2>
 				<div className='education-details'>
-					<p className='education-details'>9-week full-stack JavaScript web development bootcamp</p>
+					<p className='education-details'>9-week full-stack JavaScript development bootcamp</p>
 				</div>
 				<h2 className='education-title'>Udemy</h2>
 				<div className='education-details'>
