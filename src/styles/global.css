@@ -7,7 +7,7 @@ body {
 	padding: 0;
 }
 .center {
-	margin: auto;
+	margin: inherit auto;
 	text-align: center;
 }
 .grid-row-container {
@@ -27,7 +27,7 @@ body {
 .body-header {
 	font-family: 'Lora';
 	font-size: 5rem;
-	text-align: center;
+	/* text-align: center; */
 	/* color: #4717F6; */
 	line-height: 0;
 	padding-bottom: 3rem;
