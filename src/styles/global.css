@@ -21,6 +21,9 @@ body {
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
+.padding-top {
+	padding-top: 3rem;
+}
 .section {
 	padding: 3rem 0;
 }
