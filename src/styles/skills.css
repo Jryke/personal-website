@@ -17,9 +17,9 @@
 	background: rgba(0, 0, 0, 0.2);
 }
 .skills-header-text-container {
-	padding: 300px;
+	padding: 18rem;
+	float: left;
 	font-size: 4rem;
-	width: 100px;
 }
 .skills-header-text {
 	color: #E7DFDD;
