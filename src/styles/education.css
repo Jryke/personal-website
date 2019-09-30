@@ -1,5 +1,5 @@
 .education {
-	padding: 5%;
+	padding: 5rem;
 }
 .education-header-background {
 	position: relative;
@@ -19,13 +19,13 @@
 }
 .education-header-text-container {
 	position: relative;
-	top: 57%;
-	left: 60%;
-	font-size: 4em;
-	width: 100px;
+	float: left;
+	top: 33rem;
+	left: 63rem;
+	font-size: 4rem;
 }
 .education-header-text {
-	color: white;
+	color: #E7DFDD;
 	text-align: center;
 }
 .education-grid {
@@ -36,17 +36,13 @@
 .education-title {
 	font-size: 2rem;
 	font-weight: 400;
-	/* color: #4717F6; */
 	margin: 0;
 	text-align: right;
-	/* border: 1px solid red; */
 }
 .education-details {
 	padding-bottom: 2rem;
-	/* border: 1px solid red; */
 }
 .education-details p {
 	font-family: 'Lora';
-	margin: 6px 0 1rem 0;
-	/* border: 1px solid yellow; */
+	margin: .4rem 0 1rem 0;
 }
