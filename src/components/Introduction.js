@@ -19,6 +19,9 @@ const Introduction = () => {
 							<li className='intro-nav-link'><a href='#'>Contact</a></li>
 						</ul>
 						<div className='intro-box-content'>
+							{/*
+								<h1>JESSE RYKERSON</h1>
+								*/}
 							<div>
 								<h1 className='jesse'>Jesse</h1>
 								<h1 className='rykerson'>RYKERSON</h1>
