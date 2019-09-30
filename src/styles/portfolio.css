@@ -38,15 +38,9 @@
 	height: 25rem;
 	margin: 0 20% 0 20%;
 }
-.nels-img {
-	height: 100%;
-	width: auto;
-	background: url(/images/nels-website.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
 .project-info {
 	font-size: 2rem;
+	margin-top: 0;
 	/* border: 1px solid red; */
 }
 .project-info p {
@@ -59,4 +53,23 @@
 }
 .portfolio li {
 	margin-bottom: 1rem;
+}
+.blog-title {
+	display: block;
+	font-size: 1.5rem;
+	padding-left: 50%;
+}
+.nels-img {
+	height: 100%;
+	width: auto;
+	background: url(/images/nels-website.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.tortuga-blog-img {
+	height: 100%;
+	width: auto;
+	background: url(/images/tortuga-blog-post.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
