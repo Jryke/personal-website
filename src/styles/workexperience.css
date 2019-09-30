@@ -19,10 +19,10 @@
 }
 .experience-header-text-container {
 	position: relative;
+	float: left;
 	top: 50%;
 	left: 40%;
 	font-size: 4rem;
-	width: 100px;
 }
 .experience-header-text {
 	color: #E7DFDD;
@@ -56,7 +56,7 @@
 	/* padding: 0; */
 }
 .experience-picture-wrapper {
-	padding-right: 4em;
+	padding-right: 4rem;
 	/* height: 80%; */
 }
 .experience-picture {
