@@ -10,6 +10,9 @@ body {
 	margin: inherit auto;
 	text-align: center;
 }
+.right {
+	text-align: right;
+}
 .grid-row-container {
 	display: grid;
 	grid-template-rows: auto auto auto;
