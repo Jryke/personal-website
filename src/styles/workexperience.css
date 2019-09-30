@@ -53,11 +53,9 @@
 }
 .duties-list li {
 	font-family: 'Lora';
-	/* padding: 0; */
 }
 .experience-picture-wrapper {
 	padding-right: 4rem;
-	/* height: 80%; */
 }
 .experience-picture {
 	background: url('/images/IMG_3213.jpg') center top;
