@@ -1,3 +1,6 @@
+.skills {
+	padding: 3rem 10rem;
+}
 .skills-header-background {
 	position: relative;
 	top: 0;
@@ -21,18 +24,6 @@
 .skills-header-text {
 	color: white;
 }
-.skills {
-	padding: 3rem 10%;
-}
-.skills-picture {
-	background-image: url('/images/20181221_123658.jpg');
-	background-size:'cover';
-	height: 700px;
-	width: auto;
-	overflow: hidden;
-	background-size: 100% 100%;
-	background-position: center bottom;
-}
 .skills-title {
 	font-size: 2rem;
 	font-weight: 400;
@@ -52,4 +43,14 @@
 	grid-template-columns: 30% 65%;
 	grid-column-gap: 5%;
 	padding: 2rem;
+}
+.skills-picture {
+	background-image: url('/images/20181221_123658.jpg');
+	background-size:'cover';
+	height: 700px;
+	width: auto;
+	overflow: hidden;
+	background-size: 100% 100%;
+	background-position: center bottom;
+	margin-bottom: 3rem;
 }
