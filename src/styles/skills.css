@@ -1,5 +1,5 @@
 .skills {
-	padding: 3rem 10rem;
+	padding: 3rem 5rem;
 }
 .skills-header-background {
 	position: relative;
@@ -22,7 +22,12 @@
 	width: 100px;
 }
 .skills-header-text {
-	color: white;
+	color: #E7DFDD;
+}
+.skills-grid-col {
+	display: grid;
+	grid-template-columns: 50% 45%;
+	grid-column-gap: 5%;
 }
 .skills-title {
 	font-size: 2rem;
@@ -40,14 +45,14 @@
 }
 .skill-info {
 	display: grid;
-	grid-template-columns: 30% 65%;
-	grid-column-gap: 5%;
-	padding: 2rem;
+	grid-template-columns: 35% 55%;
+	grid-column-gap: 10%;
+	padding-bottom: 2rem;
 }
 .skills-picture {
 	background-image: url('/images/20181221_123658.jpg');
 	background-size:'cover';
-	height: 700px;
+	height: 34rem;
 	width: auto;
 	overflow: hidden;
 	background-size: 100% 100%;
