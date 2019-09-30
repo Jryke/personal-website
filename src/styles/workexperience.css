@@ -25,31 +25,12 @@
 	width: 100px;
 }
 .experience-header-text {
-	color: white;
+	color: #E7DFDD;
 	text-align: center;
 }
 .experience-grid-row {
-	/* padding: 2rem 0 2rem 25%; */
-
-	/* border: 1px solid red; */
 	display: grid;
 	grid-template-columns: 42.5% 57.5%;
-	/* grid-column-gap: 2%; */
-}
-.jesse {
-	font-family: 'Lora';
-	font-size: 4rem;
-	line-height: 0;
-	padding-left: 6px;
-	margin-top: 1.5rem;
-	/* margin-top: 3rem; */
-}
-.rykerson {
-	font-family: 'Lora';
-	font-size: 8rem;
-	color: #4717F6;
-	line-height: 0;
-	/* margin-bottom: 8rem; */
 }
 .job-info {
 	padding: 1.5rem 0;
@@ -62,8 +43,6 @@
 .job-dates {
 	margin: auto;
 	line-height: 2rem;
-	/* padding: 1rem 0; */
-	/* font-size: 1.2em; */
 	color: grey;
 	font-style: italic;
 }
@@ -84,9 +63,8 @@
 	background: url('/images/IMG_3213.jpg') center top;
 	background-size: cover;
 	height: 100%;
-	/* border: 1px solid green; */
+	margin-bottom: 5rem;
 }
 .experience-info {
 	padding: 0;
-	/* border: 1px solid yellow; */
 }

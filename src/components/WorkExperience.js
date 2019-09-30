@@ -16,10 +16,6 @@ const WorkExperience = () => {
 							<div className='experience-picture'></div>
 						</div>
 						<div className='experience-info'>
-							<div>
-								<h1 className='jesse'>Jesse</h1>
-								<h1 className='rykerson'>RYKERSON</h1>
-							</div>
 							<div className='job-info'>
 								<h2 className='job-title'>
 									Freelance Web/Mobile Developer and Consultant
