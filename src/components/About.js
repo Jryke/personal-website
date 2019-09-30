@@ -9,71 +9,75 @@ const About = () => {
 		<>
 			<Navbar />
 			<Header componentName={'about'} text={'Get To Know Me'}/>
-			<div className='center about'>
-				<div className='-container'>
-					<div className='grid-row'>
-						<div className='about-picture'>
-							<div style={{backgroundImage:`url('/images/20171208_142905.jpg')`, backgroundSize:'cover', }}></div>
+			<div className='about'>
+				<div className='about-me-grid-col about-padding'>
+					<div className='about-picture'>
+						<div style={{backgroundImage:`url('/images/20171208_142905.jpg')`, backgroundSize:'cover', }}></div>
+					</div>
+					<div>
+						<h1 className='body-header'>About me</h1>
+						<div className='about-details'>
+							<h2 className='about-title right'>General</h2>
+							<p className='about-content'>
+								I grew up in Cambridge, MA.  I have also lived in Boulder, Colorado and Barranquilla, Colombia.  I love projects, playing games, making friends and generally having fun.  I am always looking to progress, learn new skills and continue growing to be a better person.  Most of all I love life and I want to make the most of it.
+							</p>
 						</div>
-						<div className='about-text'>
-							<h2>About me:</h2>
-							<p>
-								General facts:
-								<br />
-								<p>Grew up in Cambridge, MA.  I have also lived in Boulder, Colorado and Barranquilla, Colombia.  I love projects, playing games, making friends and generally having fun.  I am always looking to progress, learn new skills and continue growing to be a better person.  Most of all I love life and I want to make the most of it.  </p>
-								<br />
-								My personality:
-								<br />
+						<div className='about-details'>
+							<h2 className='about-title right'>My personality</h2>
+							<p className='about-content'>
 								I am a social and outgoing person but also enjoy quiet time to myself.  I like a good conversation but I am also content all alone with my computer or a book.  I’m always looking for a good project to work on because I get the most satisfaction out of producing and being creative.  Simply put, I like to learn things and then use what I learn to make things.
 							</p>
 						</div>
 					</div>
-					<div className='background-grey section'>
-						<h2>Professional and personal philosophies:</h2>
-						<div className='grid-row'>
-							<div className='about-text'>
-								<div>
-									<h3 className='about-title'>work smarter... and harder</h3>
-									<p>
-										I consider myself to be intelligent, but I also know that intelligence is useless without applying it.  In my professional life (as well as anything that I do), I am a hard worker and I always strive to give my 100% in everything that I do.  I hold to the proverb "any job worth doing is a job worth doing well".  If I am going to put my time and energy into something, I am going to see it through properly; otherwise I am just wasting my time and energy.  Therfore, I take pride in everything I do and I do everything to the best of my ability.
-									</p>
-								</div>
-								<div>
-									<h3 className='about-title'>Do what you love and love what you do:</h3>
-									<p>
-										Time is the most valuable thing that we have and we need to take advantage of it as much as possible to be happy.  To take advantage of our time, it is important to work doing something that you love to do, otherwise you are wasting your time doing things that don't contribute to your happiness.  Many people work to make money but don't have the time to enjoy it, this is counter-intuitive.  Enjoying what you do is the key to a &quot;successful&quot; lifestyle, not just making money (although money is nice to have too).
-									</p>
-								</div>
+				</div>
+				<div className='background-grey about-padding'>
+					<h1 className='body-header padding-top '>Professional and personal philosophies</h1>
+					<div className='about-grid-col-gap'>
+						<div className='about-text'>
+							<div>
+								<h2 className='about-title'>work smarter... and harder</h2>
+								<p className='about-content'>
+									I consider myself to be intelligent, but I also know that intelligence is useless without applying it.  In my professional life (as well as anything that I do), I am a hard worker and I always strive to give my 100% in everything that I do.  I hold to the proverb "any job worth doing is a job worth doing well".  If I am going to put my time and energy into something, I am going to see it through properly; otherwise I am just wasting my time and energy.  Therfore, I take pride in everything I do and I do everything to the best of my ability.
+								</p>
 							</div>
-							<div className='about-text'>
-								<div>
-									<h3 className='about-title'>Create and be creative:</h3>
-									<p>
-										Growing up, my father was a carpenter and an architect so we had a woodshop in the basement of our house.  I spent a lot of my childhood in the basement making things (including my own toys or boxes to store my toys).  Among other expriences, I believe that this largely shaped my desire to be creative and build things.  I get a lot of satisfaction out of planning a project, executing it and seeing the desired result in the end.  This has played a big part for me becoming a web developer.  I really enjoy the creative process of building web sites and web apps from the beginning to the end.  I read a quote recently that really got my attention: "Be a creator, not a consumer".  Every day people are consuming more information and entertainment online; I want to be a part of creating it, not only consuming it.
-									</p>
-								</div>
-								<div>
-									<h3 className='about-title'>Be a lifelong learner:</h3>
-									<p>
-										I love to learn and I know that learning is the best use of my time.  I believe that if I am not learning (and enjoying what I am learning), I am wasting my time.  While studying my masters degree in Applied Linguistics to become a teacher, I learned not just how to be a good teacher but also to be a good student.
-									</p>
-								</div>
+							<div>
+								<h3 className='about-title'>Do what you love and love what you do</h3>
+								<p className='about-content'>
+									Time is the most valuable thing that we have and we need to take advantage of it as much as possible to be happy.  To take advantage of our time, it is important to work doing something that you love to do, otherwise you are wasting your time doing things that don't contribute to your happiness.  Many people work to make money but don't have the time to enjoy it, this is counter-intuitive.  Enjoying what you do is the key to a &quot;successful&quot; lifestyle, not just making money (although money is nice to have too).
+								</p>
+							</div>
+						</div>
+						<div className='about-text'>
+							<div>
+								<h3 className='about-title'>Create and be creative</h3>
+								<p className='about-content'>
+									Growing up, my father was a carpenter and an architect so we had a woodshop in the basement of our house.  I spent a lot of my childhood in the basement making things (including my own toys or boxes to store my toys).  Among other expriences, I believe that this largely shaped my desire to be creative and build things.  I get a lot of satisfaction out of planning a project, executing it and seeing the desired result in the end.  This has played a big part for me becoming a web developer.  I really enjoy the creative process of building web sites and web apps from the beginning to the end.  I read a quote recently that really got my attention: "Be a creator, not a consumer".  Every day people are consuming more information and entertainment online; I want to be a part of creating it, not only consuming it.
+								</p>
+							</div>
+							<div>
+								<h3 className='about-title'>Be a lifelong learner</h3>
+								<p className='about-content'>
+									I love to learn and I know that learning is the best use of my time.  I believe that if I am not learning (and enjoying what I am learning), I am wasting my time.  While studying my masters degree in Applied Linguistics to become a teacher, I learned not just how to be a good teacher but also to be a good student.
+								</p>
 							</div>
 						</div>
 					</div>
-					<div className='grid-row'>
+				</div>
+				<div className='about-interests'>
+					<h1 className='body-header'>Personal Interests</h1>
+					<div className='about-interests-grid-col'>
 						<div className='about-text'>
-							<h2>Personal Interests:</h2>
+
 							<div>
-								<h3>Travel</h3>
-								<p>
+								<h3 className='about-title'>Travel</h3>
+								<p className='about-content'>
 									I love to travel because I love to see and experience new things.  The world has so much beauty and I want to see all of it.  Travelling also allows me to experience other cultures and ways of thinking.  I often learn new customs while travelling that I can adapt to my own lifestyle.  I believe that this helps me improve who I am as a person and always continue becoming a better person.
 									<br />
 									<br />
 									Another aspect that drives me to travel is that I never know what I will see or experience next.  Travelling excites me because of the unknown aspect of going to a new place.  It&#39;s nice to see something that is beautiful, but to be surprised by it is even more delightful.
 								</p>
-								<h3>Music</h3>
-								<p>
+								<h3 className='about-title'>Music</h3>
+								<p className='about-content'>
 									I love listening to music.  I am a music collector.  I have an extensive collection of music that I grew up with and music, music that fellow music addicts have told me about and music that I have acquired while travelling.  My love for music goes hand-in-hand with my love for travelling.  While living in Colombia for 4 years, I was fascinated by the abundance of music and rhythms that come from Colombia.  I became especially immersed in the local Champeta music, which is a Colombian/Afro-Caribbean music that is hard not to like.
 									<br />
 									<br />
@@ -82,8 +86,8 @@ const About = () => {
 									<br />
 									*Add information about bqlla film festival Maria *
 								</p>
-								<h3>Languages</h3>
-								<p>
+								<h3 className='about-title'>Languages</h3>
+								<p className='about-content'>
 									I grew up speaking English and after finishing my undergraduate degree, I decided that I wanted to take some time to really learn Spanish.  I was determined to not just learn Spanish but master it.  After learning some Spanish, my interest in language let me to teach English and get a masters degree in Applied Linguistics at UMass Boston.  Once I completed my masters degree, I lived in Barranquilla, Colombia for four years teaching English and polishing my Spanish.  While living there, I learned Spanish and Coste&#241;ol (caribbean style Spanish).  Learning Spanish as well as I did gave me supreme confidence that I can learn anything as long as I put the time and effort forward.  I am now fluent in Spanish and I have studied Portuguese.  Most recently I have learned JavaScript which although not a human language, I still consider learning another language.  While learning JavaScript, I found that computer languages are more similar to human languages than I had thought.  All languages, human or computer, fascinate me.
 								</p>
 							</div>
@@ -93,6 +97,7 @@ const About = () => {
 						</div>
 					</div>
 				</div>
+
 			</div>
 			<Footer />
 		</>

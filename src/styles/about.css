@@ -1,3 +1,6 @@
+/* .about {
+	padding: 5%;
+} */
 .about-header-background {
 	position: relative;
 	top: 0;
@@ -18,12 +21,17 @@
 	font-size: 4em;
 	width: 100px;
 }
+.about-padding {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2rem;
+}
 .about-header-text {
 	color: white;
 	text-align: center;
 }
 .about-picture {
-	padding: 40px;
+	/* padding: 40px; */
 }
 .about-picture>div {
 	height: 700px;
@@ -34,11 +42,52 @@
 	/* border: 2px solid red; */
 }
 .about-title {
-	/* margin-top: 3em; */
+	font-size: 2rem;
+	font-weight: 400;
+	/* color: #4717F6; */
+	margin: 0;
+	/* text-align: right; */
+	/* border: 1px solid red; */
 }
+.about-me-grid-col {
+	display: grid;
+	grid-template-columns: 45% 50%;
+	grid-column-gap: 5%;
+}
+
 .about-text {
-	padding: 20px 40px;
+	/* padding: 20px 40px; */
 }
-.about h1, .about h2, .about h3 {
-	font-weight: 700;
+
+.about-details {
+	padding-bottom: 2rem;
+	display: grid;
+	grid-template-columns: 30% 65%;
+	grid-column-gap: 5%;
+	/* border: 1px solid red; */
+}
+.about-details p {
+	font-family: 'Lora';
+	margin: 6px 0 1rem 0;
+	/* border: 1px solid yellow; */
+}
+.about-grid-col-gap {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 10%;
+}
+.about-content {
+	font-family: 'Lora';
+	line-height: 1.5em;
+	padding-left: 5em;
+	margin-bottom: 3em;
+}
+.about-interests {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.about-interests-grid-col {
+	display: grid;
+	grid-template-columns: 50% 45%;
+	grid-column-gap: 5%;
 }
