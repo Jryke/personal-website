@@ -41,6 +41,11 @@
 	background-position: center bottom;
 	/* border: 2px solid red; */
 }
+.about-me-grid-col {
+	display: grid;
+	grid-template-columns: 45% 50%;
+	grid-column-gap: 5%;
+}
 .about-title {
 	font-size: 2rem;
 	font-weight: 400;
@@ -49,16 +54,23 @@
 	/* text-align: right; */
 	/* border: 1px solid red; */
 }
-.about-me-grid-col {
-	display: grid;
-	grid-template-columns: 45% 50%;
-	grid-column-gap: 5%;
+.about-philosophies-content {
+	font-family: 'Lora';
+	line-height: 1.5em;
+	/* padding-left: 5em; */
+	margin-bottom: 3rem;
+}
+.about-content {
+	font-family: 'Lora';
+	line-height: 1.5em;
+	/* padding-left: 5em; */
+	margin-bottom: 5rem;
 }
 .about-details {
-	padding-bottom: 2rem;
+	padding-bottom: 5rem;
 	display: grid;
-	grid-template-columns: 30% 65%;
-	grid-column-gap: 5%;
+	grid-template-columns: 30% 60%;
+	grid-column-gap: 10%;
 	/* border: 1px solid red; */
 }
 .about-details p {
@@ -73,20 +85,28 @@
 }
 .about-grid-col-gap {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 45% 45%;
 	grid-column-gap: 10%;
 }
-.about-content {
-	font-family: 'Lora';
-	line-height: 1.5em;
-	padding-left: 5em;
-	margin-bottom: 3em;
-}
+/* .about-grid-col-gap>div {
+	border: 1px solid red;
+} */
 .about-interests {
 	padding: 0 5% 3rem 5%;
 }
 .about-interests-grid-col {
 	display: grid;
-	grid-template-columns: 50% 45%;
-	grid-column-gap: 5%;
+	grid-template-columns: 45% 45%;
+	grid-column-gap: 10%;
+}
+.dj-picture {
+	background-image: url('/images/Alianza Francesa Toque 2.jpg');
+	background-size: cover;
+	background-position: center right;
+	margin-bottom: 5rem;
+}
+.sunset-picture {
+	background-image: url('/images/20170704_192303.jpg');
+	background-size: cover;
+	background-position: center right;
 }
