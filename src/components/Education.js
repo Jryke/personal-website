@@ -10,8 +10,10 @@ const Education = () => {
 		<Navbar />
 		<Header componentName={'education'} text={'education'} />
 		<div className='education background-grey'>
-			<h1 className='body-header'>Formal Education</h1>
+
 			<div className='education-grid'>
+				<h1 className='body-header right'>Formal Education</h1>
+				<div></div>
 				<h2 className='education-title'>Graduate</h2>
 				<div className='education-details'>
 					<p>University of Massachusetts Boston</p>
@@ -24,10 +26,12 @@ const Education = () => {
 					<p>BA in Anthropology</p>
 				</div>
 				<h2 className='education-title'>HighSchool</h2>
-				<p>Cambridge Rindge & Latin High School</p>
+				<p className='education-details'>Cambridge Rindge & Latin High School</p>
 			</div>
-			<h1 className='body-header section'>Informal Education</h1>
+
 			<div className='education-grid'>
+				<h1 className='body-header right'>Informal Education</h1>
+				<div></div>
 				<h2 className='education-title'>Harvard Extension</h2>
 				<div className='education-details'>
 					<p>Web Programming/JavaScript Course</p>

@@ -33,5 +33,6 @@ body {
 .body-header {
 	font-family: 'Lora';
 	font-size: 5rem;
+	/* padding-top: 3rem; */
 	/* color: #4717F6;	 */
 }

@@ -1,5 +1,5 @@
 .education {
-	padding: 5rem;
+	padding: 3rem 5rem;
 }
 .education-header-background {
 	position: relative;
@@ -30,7 +30,7 @@
 }
 .education-grid {
 	display: grid;
-	grid-template-columns: 30% 65%;
+	grid-template-columns: 50% 45%;
 	grid-column-gap: 5%
 }
 .education-title {
