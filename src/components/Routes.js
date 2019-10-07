@@ -7,6 +7,7 @@ import Skills from './Skills'
 import WorkExperience from './WorkExperience'
 import Education from './Education'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
 import App from './App'
 
 class Routes extends React.Component {
@@ -20,6 +21,7 @@ class Routes extends React.Component {
 						<Route path='/experience' component={WorkExperience} />
 						<Route path='/education' component={Education} />
 						<Route path='/portfolio' component={Portfolio} />
+						<Route path='/contact' component={Contact} />
 						<Route path='/App' component={App} />
 						<Route path='/' component={Introduction} />
 					</Switch>
