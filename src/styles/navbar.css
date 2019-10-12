@@ -1,8 +1,8 @@
 nav {
 	z-index: 10;
-	/* height: 18px; */
 	width: 100%;
-	padding: 12px;
+	font-size: 1.25rem;
+	padding: 1rem;
 	background: rgba(0, 0, 0, .75);
 	position: fixed;
 	top: 0;
@@ -14,7 +14,6 @@ nav ul {
 }
 .nav-name {
 	padding: 3em;
-	color: white;
 }
 .nav {
 	display: grid;
@@ -24,6 +23,9 @@ nav ul {
 	list-style: none;
 }
 nav a {
-	color: white;
+	color: #E7DFDD;
 	text-decoration: none;
+}
+nav a:visited {
+	color: #E7DFDD;
 }

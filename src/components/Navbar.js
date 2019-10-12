@@ -12,7 +12,7 @@ const Navbar = () => {
 		        <img src="#" alt="JR" />
 		    </div>
 				*/}
-				<span className="nav-name"><Link to="/">Jesse Rykerson</Link></span>
+				<span className="nav-name"><Link className="nav-name-text" to="/">Jesse Rykerson</Link></span>
 					<ul className='nav'>
 						<li className='nav-link'><Link to='./portfolio'>Portfolio</Link></li>
 						<li className='nav-link'><Link to='/skills'>Skills</Link></li>
@@ -23,22 +23,6 @@ const Navbar = () => {
 						<li className='nav-link'><Link to='/contact'>Contact</Link></li>
 					</ul>
 			</nav>
-
-      // <div className="ui top fixed borderless large blue inverted menu">
-      //     <div className="item">
-      //         <i className="us flag"></i>
-      //         <img src="#" alt="JR" />
-      //     </div>
-      //     <div className="item align right" style={{"marginRight": "1em"}}>Jesse Rykerson</div>
-      //     <a className="item" href="#bio">Bio</a>
-      //     <a className="item" href="#skills">Skills</a>
-      //     <a className="item" href="#experience">Experience</a>
-      //     <a className="item" href="#education">Education</a>
-      //     <a className="item" href="#portfolio">Portfolio</a>
-      //     <a className="item" href="#">Resume</a>
-      //     <a className="item" href="#blog">Blog</a>
-      //     <a className="item" href="#">Contact</a>
-      // </div>
     )
 }
 
