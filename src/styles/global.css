@@ -2,6 +2,19 @@
   font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #4717F6;
+}
+a:hover {
+	color: #A239CA;
+	font-weight: 700;
+}
+a:visited {
+	color: #A239CA;
+}
 body {
 	margin: 0;
 	padding: 0;
