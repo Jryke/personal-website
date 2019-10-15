@@ -34,7 +34,9 @@
 .intro-nav-link a {
 	color: #E7DFDD;
 	text-decoration: none;
-	font-weight: 700;
+}
+.intro-nav-link a:visited {
+	color: #E7DFDD;
 }
 .intro-box-content {
 	position: relative;
@@ -65,8 +67,13 @@
 }
 .intro-button {
 	display: inline-block;
-	width: 4rem;
-	padding: .5rem 1rem;
+	width: 5rem;
+	padding: 1rem 1rem;
 	margin: .5rem;
 	border: .15rem solid #E7DFDD;
+	cursor: pointer;
+}
+.intro-button:hover {
+	font-weight: 700;
+	border: .2rem solid #E7DFDD;
 }
