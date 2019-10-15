@@ -1,5 +1,5 @@
 .portfolio {
-	padding: 5rem;
+	padding: 3rem;
 }
 .portfolio-header-background {
 	position: relative;
@@ -35,7 +35,7 @@
 }
 .portfolio-img-container {
 	display: block;
-	height: 25rem;
+	height: 19rem;
 	margin: 0 20% 0 20%;
 }
 .project-info {
