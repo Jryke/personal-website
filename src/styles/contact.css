@@ -37,7 +37,8 @@
 .contact-grid-col {
 	display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 3rem;
+	grid-column-gap: 3rem;
+	padding-bottom: 1rem;
 }
 .contact-div {
 	border: 1px solid #A239CA;
@@ -46,11 +47,13 @@
 }
 .contact-title {
 	text-align: center;
+	text-decoration: none;
 	margin: 0;
 	padding-bottom: 1rem;
 }
 .contact-info{
 	font-family: 'Lora';
+	text-decoration: none;
 	text-align: center;
 	display: block;
 	font-size: 2rem;
