@@ -37,13 +37,21 @@
 	display: block;
 	height: 19rem;
 	margin: 0 20% 0 20%;
+	padding-bottom: 5rem;
 }
 .project-info {
 	font-size: 2rem;
 	margin-top: 0;
 }
-.project-info p {
+.project-info h2 {
 	margin: 0 0 1rem 0;
+}
+.project-info p {
+	margin: 1rem 0;
+}
+.project-info small {
+	display: block;
+	margin: 1rem 0;
 }
 .portfolio ul {
 	list-style: none;
@@ -62,6 +70,20 @@
 	height: 100%;
 	width: auto;
 	background: url(/images/nels-website.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.coursefill-img {
+	height: 100%;
+	width: auto;
+	background: url(/images/coursefill.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.airbnb-img {
+	height: 100%;
+	width: auto;
+	background: url(/images/airbnb-clone.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }

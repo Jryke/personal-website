@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Footer from './Footer'
 import '../styles/portfolio.css'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
 	return (
@@ -14,12 +15,38 @@ const Portfolio = () => {
 				<h1 className='body-header right'>Professional Projects</h1>
 				<div></div>
 				<div className='project-info right'>
-					<p>New England Language School Website</p>
+					<h2><a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>New England Language School</a></h2>
 					<a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>{`https://www.newenglandlanguage.com/`}</a>
 				</div>
 				<div className='portfolio-img-container'>
 					<a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>
 						<div className='nels-img'></div>
+					</a>
+				</div>
+
+				<h1 className='body-header right'>Personal Projects</h1>
+				<div></div>
+				<div className='project-info right'>
+					<h2><a href="https://coursefill-react.herokuapp.com/" target='_blank' rel='noopener noreferrer'>CourseFill</a></h2>
+					<small>(course registration application)</small>
+					<small>This is enterprise software, the code is not public</small>
+					<small>Please <Link to='/contact'>contact me</Link> with any inquiries</small>
+				</div>
+				<div className='portfolio-img-container'>
+					<a href="https://coursefill-react.herokuapp.com/" target='_blank' rel='noopener noreferrer'>
+						<div className='coursefill-img'></div>
+					</a>
+				</div>
+
+				<div className='project-info right'>
+					<h2><a href="https://airbnb-jryke.herokuapp.com/" target='_blank' rel='noopener noreferrer'>Airbnb clone</a></h2>
+					<small>(Airbnb clone website created by me)</small>
+					<p><a href="https://github.com/Jryke/airbnb-react" target='_blank' rel='noopener noreferrer'>GitHub front end (React) repository</a></p>
+					<p><a href="https://github.com/Jryke/airbnb-api" target='_blank' rel='noopener noreferrer'>GitHub back end (API) repository</a></p>
+				</div>
+				<div className='portfolio-img-container'>
+					<a href="https://airbnb-jryke.herokuapp.com/" target='_blank' rel='noopener noreferrer'>
+						<div className='airbnb-img'></div>
 					</a>
 				</div>
 
@@ -35,7 +62,7 @@ const Portfolio = () => {
 				<h1 className='body-header section right'>Blog posts</h1>
 				<div></div>
 				<div className='right'>
-					<p className='project-info'>Tortuga Coders Blog</p>
+					<h2 className='project-info'>Tortuga Coders Blog</h2>
 					<a className='blog-title' href='https://blog.tortugacoders.com/learning-a-coding-language-is-the-same-as-learning-a-human-language/' target='_blank' rel='noopener noreferrer'>Learning a coding language is the same as learning a human language</a>
 				</div>
 				<div className='portfolio-img-container'>
