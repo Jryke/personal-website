@@ -28,10 +28,7 @@
 	padding-left: 5.5rem;
 	list-style: none;
 }
-.intro-nav-link {
-	font-weight: 700;
-}
-.intro-nav-link a {
+.intro-nav-link a:link {
 	color: #E7DFDD;
 	text-decoration: none;
 }

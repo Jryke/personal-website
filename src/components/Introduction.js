@@ -14,14 +14,11 @@ const Introduction = () => {
 							<li className='intro-nav-link'><Link to='/skills'>Skills</Link></li>
 							<li className='intro-nav-link'><Link to='./experience'>Experience</Link></li>
 							<li className='intro-nav-link'><Link to='./education'>Education</Link></li>
-							<li className='intro-nav-link'><a href='#'>Resume</a></li>
+							<li className='intro-nav-link'>Resume</li>
 							<li className='intro-nav-link'><Link to='/about'>About</Link></li>
 							<li className='intro-nav-link'><Link to='/contact'>Contact</Link></li>
 						</ul>
 						<div className='intro-box-content'>
-							{/*
-								<h1>JESSE RYKERSON</h1>
-								*/}
 							<div>
 								<h1 className='jesse'>Jesse</h1>
 								<h1 className='rykerson'>RYKERSON</h1>
