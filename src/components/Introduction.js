@@ -23,7 +23,11 @@ const Introduction = () => {
 								<h1 className='rykerson'>RYKERSON</h1>
 							</div>
 				      <h2>WEB/APP DEVELOPER</h2>
-							<div className='intro-button'>Contact</div>
+							<Link to='/contact'>
+								<div className='intro-button'>
+									Contact
+								</div>
+							</Link>
 							<Link to='./Jesse Rykerson - Resume.pdf' target='_blank' download>
 								<div className='intro-button'>
 									Resume
