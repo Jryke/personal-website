@@ -14,7 +14,6 @@ const Introduction = () => {
 							<li className='intro-nav-link'><Link to='/skills'>Skills</Link></li>
 							<li className='intro-nav-link'><Link to='./experience'>Experience</Link></li>
 							<li className='intro-nav-link'><Link to='./education'>Education</Link></li>
-							<li className='intro-nav-link'>Resume</li>
 							<li className='intro-nav-link'><Link to='/about'>About</Link></li>
 							<li className='intro-nav-link'><Link to='/contact'>Contact</Link></li>
 						</ul>
