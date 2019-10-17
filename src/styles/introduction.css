@@ -63,6 +63,7 @@
 	font-weight: 700;
 }
 .intro-button {
+	color: #E7DFDD;
 	display: inline-block;
 	width: 5rem;
 	padding: 1rem 1rem;
@@ -73,4 +74,7 @@
 .intro-button:hover {
 	font-weight: 700;
 	border: .2rem solid #E7DFDD;
+}
+.intro-button a:visited {
+	color: #E7DFDD;
 }

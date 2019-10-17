@@ -25,7 +25,11 @@ const Introduction = () => {
 							</div>
 				      <h2>WEB/APP DEVELOPER</h2>
 							<div className='intro-button'>Contact</div>
-							<div className='intro-button'>Resume</div>
+							<Link to='./Jesse Rykerson - Resume.pdf' target='_blank' download>
+								<div className='intro-button'>
+									Resume
+								</div>
+							</Link>
 						</div>
 			    </div>
 				</div>
