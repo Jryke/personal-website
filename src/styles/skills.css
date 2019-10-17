@@ -20,9 +20,11 @@
 	padding: 18rem;
 	float: left;
 	font-size: 4rem;
-}
-.skills-header-text {
 	color: #E7DFDD;
+}
+.skills-header-background .scroll-down-container {
+	top: 47rem;
+	right: 26.95rem;
 }
 .skills-grid-col {
 	display: grid;

@@ -17,11 +17,13 @@
   float: right;
   padding: 7rem;
 	font-size: 4rem;
-  width: 26rem;
-}
-.contact-header-text {
+	width: 26rem;
 	color: #E7DFDD;
 	text-align: right;
+}
+.contact-header-background .scroll-down-container {
+	top: 47rem;
+	left: 20.1rem;
 }
 .contact-padding {
 	padding: 4rem 5rem;

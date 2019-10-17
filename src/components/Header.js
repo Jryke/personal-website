@@ -9,6 +9,11 @@ class Header extends React.Component {
 					<div className={`${this.props.componentName}-header-text-container`}>
 						<h1 className={`${this.props.componentName}-header-text`}>{this.props.text}</h1>
 					</div>
+					<div className='scroll-down-container'>
+						<small className='scroll-down'>scroll down</small>
+						<br />
+						<i class="fas fa-angle-down"></i>
+					</div>
 				</div>
 			</div>
 			</>

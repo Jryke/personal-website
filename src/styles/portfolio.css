@@ -24,6 +24,10 @@
 	left: 11rem;
 	font-size: 4rem;
 }
+.portfolio-header-background .scroll-down-container {
+	top: 47rem;
+	right: 15.05rem;
+}
 .portfolio-grid {
 	display: grid;
 	grid-template-columns: 55% 40%;

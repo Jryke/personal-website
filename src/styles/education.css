@@ -23,10 +23,12 @@
 	top: 33rem;
 	left: 63rem;
 	font-size: 4rem;
-}
-.education-header-text {
 	color: #E7DFDD;
 	text-align: center;
+}
+.education-header-background .scroll-down-container {
+	top: 47rem;
+	right: 17.5rem;
 }
 .education-grid {
 	display: grid;

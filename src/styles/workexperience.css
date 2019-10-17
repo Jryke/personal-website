@@ -18,15 +18,17 @@
 	background: rgba(0, 0, 0, 0.2);
 }
 .experience-header-text-container {
+	color: #E7DFDD;
+	text-align: center;
 	position: relative;
 	float: left;
 	top: 50%;
 	left: 40%;
 	font-size: 4rem;
 }
-.experience-header-text {
-	color: #E7DFDD;
-	text-align: center;
+.experience-header-background .scroll-down-container {
+	top: 47rem;
+	right: 19.2rem;
 }
 .experience-grid-row {
 	display: grid;
