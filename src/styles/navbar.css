@@ -26,6 +26,9 @@ nav a {
 	color: #E7DFDD;
 	text-decoration: none;
 }
+nav a:link {
+	color: #E7DFDD;
+}
 nav a:visited {
 	color: #E7DFDD;
 }
