@@ -6,13 +6,8 @@ import '../styles/navbar.css'
 const Navbar = () => {
     return (
 			<nav>
-		    {/*
-				<div className="item">
-		        <i className="us flag"></i>
-		        <img src="#" alt="JR" />
-		    </div>
-				*/}
 				<span className="nav-name"><Link className="nav-name-text" to="/">Jesse Rykerson</Link></span>
+				<span className="nav-name"><Link to='./Jesse Rykerson - Resume.pdf' target='_blank' download>Resume</Link></span>
 					<ul className='nav'>
 						<li className='nav-link'><Link to='./portfolio'>Portfolio</Link></li>
 						<li className='nav-link'><Link to='/skills'>Skills</Link></li>
