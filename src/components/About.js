@@ -81,7 +81,9 @@ const About = () => {
 									I love listening to music.  I am a music collector.  I have an extensive collection of music that I grew up with and music, music that fellow music addicts have told me about and music that I have acquired while travelling.  My love for music goes hand-in-hand with my love for travelling.  While living in Colombia for 4 years, I was fascinated by the abundance of music and rhythms that come from Colombia.  I became especially immersed in the local Champeta music, which is a Colombian/Afro-Caribbean music that is hard not to like.
 									<br />
 									<br />
-									In addition to listening to and collecting music, I am a DJ and I play guitar.  Like the chicken and the egg, I&#39;m not sure which came first, being a DJ or a music collector.  Either way, the two obviously compliment each other.  My favorite music to DJ is Afro-Caribbean music (Reggae, Soca, Champeta, etc.).  The songs that I play on guitar are mostly by Red Hot Chili Peppers and Jimi Hendrix.
+									In addition to listening to and collecting music, I am a DJ and I play guitar.  Like the chicken and the egg, I&#39;m not sure which came first, being a DJ or a music collector.  Either way, the two obviously compliment each other.  My favorite music to DJ is Afro-Caribbean music (Reggae, Soca, Champeta, etc.).  The songs that I play on guitar are mostly by Red Hot Chili Peppers and Jimi Hendrix.  Below is a link to a video of me DJing.
+									<br />
+								  <a href='https://www.youtube.com/watch?v=2nCQ82Ljf3Q'>https://www.youtube.com/watch?v=2nCQ82Ljf3Q</a>
 									<br />
 									<br />
 									While living in Barranquilla, Colombia, I was involved in the opening ceremony of the Barranquilla film festival (FICBAQ).  I was a member of a band playing live music for a silent movie called "Maria" by the Colombian director Enrique Grau.  I performed in the band doing scratch DJing and sound effects.  Below is a link to a video of the performance.
