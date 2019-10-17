@@ -5,8 +5,7 @@ const Footer = () => {
     return (
       <div className='footer'>
 				<div className='footer-center'>
-					<span className='footer-text'>Designed using</span>
-					<span className='footer-text'><i class='fab fa-react'></i>React.js</span>
+					<span className='footer-text'>Designed using <i class='fab fa-react'></i>React.js</span>
 				</div>
 				<span className='footer-text footer-right'>All photos taken by or of me</span>
       </div>
