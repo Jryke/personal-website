@@ -50,6 +50,10 @@ body {
 .scroll-down-container {
 	font-size: 1.5rem;
 	color: #E7DFDD;
+	clear: both;
+	width: 8rem;
+	height: 4rem;
+	margin: 0 auto;
 	position: relative;
 	text-align: center;
 }

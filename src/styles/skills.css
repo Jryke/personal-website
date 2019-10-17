@@ -23,8 +23,7 @@
 	color: #E7DFDD;
 }
 .skills-header-background .scroll-down-container {
-	top: 47rem;
-	right: 26.95rem;
+	bottom: 10rem;
 }
 .skills-grid-col {
 	display: grid;
