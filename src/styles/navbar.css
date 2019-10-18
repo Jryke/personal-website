@@ -13,18 +13,20 @@ nav ul {
 	float: right;
 }
 .nav-name {
-	padding: 3em;
+	padding: 0 2em;
+	/* border: 1px solid red; */
 }
 .nav {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto;
 	grid-gap: 2em;
-	padding-left: 7%;
+	/* padding-left: 7%; */
 	list-style: none;
 }
 nav a {
 	color: #E7DFDD;
 	text-decoration: none;
+	/* border: 1px solid yellow; */
 }
 nav a:link {
 	color: #E7DFDD;
