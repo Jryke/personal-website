@@ -38,7 +38,7 @@
 }
 .intro-box-content {
 	position: relative;
-	top: 12rem
+	top: 11rem
 }
 .jesse {
 	position: relative;
@@ -78,4 +78,51 @@
 }
 .intro-button a:visited {
 	color: #E7DFDD;
+}
+@media only screen and (max-width: 1200px) {
+	.intro-box {
+		width: 50rem;
+		height: 40rem;
+	}
+	.intro-nav {
+		padding-left: 3rem;
+	}
+	.intro-box-content {
+		top: 10rem
+	}
+}
+@media only screen and (max-width: 800px) {
+	.intro-box {
+		width: 22rem;
+		height: 40rem;
+	}
+	.intro-nav {
+		display: none;
+	}
+	.nav-button {
+		display: inline-block;
+		float: right;
+		color: #E7DFDD;
+		padding: .5rem;
+		margin: 1rem;
+		border: 1px solid #E7DFDD;
+	}
+		.hamburger {
+				position: relative;
+				display: inline-block;
+				width: 1.25em;
+				height: 1.2em;
+				margin-right: 0.5em;
+				border-top: 0.2em solid #E7DFDD;
+				border-bottom: 0.2em solid #E7DFDD;
+		}
+
+		.hamburger:before {
+				content: "";
+				position: absolute;
+				top: 0.3em;
+				left: 0px;
+				width: 100%;
+				border-top: 0.2em solid #E7DFDD;
+		}
 }

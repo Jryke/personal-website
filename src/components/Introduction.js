@@ -9,6 +9,9 @@ const Introduction = () => {
 			<div className='intro-background'>
 				<div className='intro-background-overlay'>
 					<div className='intro-box'>
+						<div class="nav-button navbar-link navbar-link-toggle" onclick="navToggle()">
+							<div class="hamburger"></div>
+						</div>
 						<ul className='intro-nav'>
 							<li className='intro-nav-link'><Link to='./portfolio'>Portfolio</Link></li>
 							<li className='intro-nav-link'><Link to='/skills'>Skills</Link></li>
