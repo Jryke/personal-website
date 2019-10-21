@@ -13,24 +13,74 @@ nav ul {
 	float: right;
 }
 .nav-name {
-	padding: 0 2em;
-	/* border: 1px solid red; */
+	padding: 0 2rem;
 }
 .nav {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto;
-	grid-gap: 2em;
-	/* padding-left: 7%; */
+	grid-gap: 2rem;
 	list-style: none;
 }
 nav a {
 	color: #E7DFDD;
 	text-decoration: none;
-	/* border: 1px solid yellow; */
 }
 nav a:link {
 	color: #E7DFDD;
 }
 nav a:visited {
 	color: #E7DFDD;
+}
+@media only screen and (max-width: 1130px) {
+	nav ul {
+		padding: 0;
+	}
+	.nav-name {
+		padding: 0 1.5rem;
+	}
+	.nav {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto auto auto auto;
+		grid-gap: 1rem;
+		list-style: none;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.navbar {
+		display: none;
+	}
+	nav {
+		padding: 0
+	}
+	nav .nav-button {
+		z-index: 20;
+		position: relative;
+		display: inline-block;
+		float: right;
+		color: #E7DFDD;
+		padding: .5rem;
+		border: 2px solid #E7DFDD;
+		border-radius: 1rem;
+	}
+	nav .nav-button:hover {
+		cursor: pointer;
+	}
+		nav .hamburger {
+				position: relative;
+				display: inline-block;
+				width: 1rem;
+				height: .75rem;
+				margin: 0.4rem;
+				border-top: 0.2rem solid #E7DFDD;
+				border-bottom: 0.2rem solid #E7DFDD;
+		}
+		nav .hamburger:before {
+				content: "";
+				position: absolute;
+				top: 0.285rem;
+				left: 0px;
+				width: 100%;
+				border-top: 0.2rem solid #E7DFDD;
+		}
+	
 }

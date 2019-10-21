@@ -17,9 +17,13 @@
 	background: rgba(0, 0, 0, 0.2);
 }
 .about-header-text-container {
-	padding: 7rem;
+	padding: 4rem 9rem;
 	font-size: 4rem;
 	width: 7rem;
+}
+.about-header-text {
+	color: #E7DFDD;
+	text-align: center;
 }
 .about-header-background .scroll-down-container {
 	bottom: 16.2rem;
@@ -28,10 +32,6 @@
 	padding-left: 5rem;
 	padding-right: 5rem;
 	padding-bottom: 2rem;
-}
-.about-header-text {
-	color: #E7DFDD;
-	text-align: center;
 }
 .about-me-grid-col {
 	display: grid;
@@ -101,4 +101,108 @@
 .sunset-picture {
 	background-image: url('/images/20170704_192303.jpg');
 	background-position: center;
+}
+@media only screen and (max-width: 1250px) {
+	.about-header-background {
+		background-size: auto 	100vh;
+	}
+	.about-header-text-container {
+		float: left;
+		padding: 2rem 1rem;
+		width: 50rem;
+	}
+	.about-header-background .scroll-down-container {
+		top: 28%;
+	}
+	.about-picture div {
+		height: 35rem;
+	}
+	.about h1 {
+		font-size: 3.5rem;
+	}
+	.about-details {
+		display: block;
+	}
+	.no-padding-bottom {
+		padding-bottom: 0;
+	}
+	.about .right {
+		text-align: left;
+	}
+	.about-title {
+		padding-bottom: 1rem;
+	}
+	.about-interests-grid-col {
+		display: block;
+	}
+	.sunset-picture {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.about-grid-col-gap {
+		display: block;
+	}
+	.about-philosophies-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.about-header-text-container {
+		width: auto;
+	}
+	.about-header-text {
+		font-size: 3.5rem;
+	}
+	.about-header-background .scroll-down-container {
+		top: 28%;
+	}
+	.about-padding {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.about-me-grid-col {
+		display: block;
+	}
+	.about-picture div {
+		height: 40rem;
+	}
+	.about h1 {
+		font-size: 3rem;
+		padding-top: 2rem;
+		margin-bottom: 0;
+	}
+	.about-title {
+		padding-top: 2.5rem;
+	}
+	.about-details {
+		padding-bottom: 0;
+	}
+	.about-interests-padding {
+		padding-bottom: 6rem;
+	}
+	.about-interests {
+		padding: 0 1.5rem;
+	}
+	.about-content {
+		margin-bottom: 2rem;
+	}
+	.dj-picture {
+		display: none;
+	}
+}
+@media only screen and (max-width: 675px) {
+	.about-padding {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	.about-picture div {
+		height: 35rem;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.about-picture div {
+		height: 28rem;
+	}
 }

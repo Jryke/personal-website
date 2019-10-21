@@ -38,7 +38,7 @@ const Skills = () => {
 							</ul>
 						</div>
 						<div className='skill-info'>
-							<h2 className='skills-title'>Applications</h2>
+							<h2 className='skills-title'>Software</h2>
 							<ul className='skills-list'>
 								<li>MS Office Suite</li>
 								<li>Adobe Photoshop</li>
@@ -47,7 +47,7 @@ const Skills = () => {
 						</div>
 						<div className='skill-info'>
 							<h2 className='skills-title'>Other Skills</h2>
-							<ul className='skills-list'>
+							<ul className='skills-list skills-list-space'>
 								<li>Bilingual: fluent in English and Spanish</li>
 								<li>Creative, self-motivated, and goal oriented</li>
 								<li>Effective team member and team leader</li>

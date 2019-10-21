@@ -60,3 +60,57 @@
 	font-size: 2rem;
 	margin: 0;
 }
+@media only screen and (max-width: 1825px) {
+	.contact-header-background {
+		background-size: auto 100vh;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.contact-grid-col {
+		display: block;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.contact-header-text-container {
+		padding: 2.5rem 2rem;
+		font-size: 2.5rem;
+		width: 20rem;
+	}
+	.contact-header-background .scroll-down-container {
+		top: 20%;
+	}
+	.contact-name {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-name .jesse {
+		padding-right: 15rem;
+		font-size: 2rem;
+	}
+	.contact-name .rykerson {
+		font-size: 4rem;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.contact-padding {
+		padding: 4rem 1.5rem;
+	}
+	.contact-name {
+		margin-bottom: 0;
+	}
+	.contact-div {
+		padding: 2rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.contact-name .jesse {
+		padding-right: 10rem;
+		font-size: 1.5rem;
+	}
+	.contact-name .rykerson {
+		font-size: 3rem;
+	}
+	.contact-info{
+		font-size: 1.5rem;
+	}
+}

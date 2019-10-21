@@ -60,3 +60,35 @@ body {
 .scroll-down-container:hover {
 	cursor: pointer;
 }
+@media only screen and (max-width: 800px) {
+	.dropdown-nav {
+		z-index: 10;
+		display: block;
+		width: 100%;
+		padding: 1rem 4rem;
+		margin: 0;
+		text-align: left;
+		list-style: none;
+		font-family: inherit;
+		font-size: 1.25rem;
+		overflow: hidden;
+		position: fixed;
+		background: rgba(0, 0, 0, 0.8);
+	}
+	.dropdown-nav a {
+		line-height: 1.5rem;
+	}
+	.intro-nav-link {
+		margin: 1rem;
+	}
+	.nav-link {
+		margin: 1rem;
+	}
+
+	.body-header {
+		margin-top: 0;
+	}
+	.right {
+		text-align: left;
+	}
+}

@@ -17,6 +17,7 @@
 	background: rgba(0, 0, 0, 0.2);
 }
 .skills-header-text-container {
+	position: relative;
 	padding: 18rem;
 	float: left;
 	font-size: 4rem;
@@ -59,4 +60,42 @@
 	background-size: 100% 100%;
 	background-position: center bottom;
 	margin-bottom: 3rem;
+}
+@media only screen and (max-width: 1250px) {
+	.skills-header-background {
+		background-size: auto 100vh;
+	}
+	.skills-header-text-container {
+		padding: 0;
+		left: 6rem;
+		top: 15rem;
+	}
+	.skills-header-text {
+		font-size: 4rem;
+	}
+	.skills-header-background .scroll-down-container {
+		position: relative;
+		top: 50%;
+	}
+	.skills {
+		padding: 3rem 1.5rem;
+	}
+	.skills h1 {
+		font-size: 3rem;
+	}
+	.skills-grid-col {
+		display: block;
+	}
+	.skills-title {
+		font-size: 1.75rem;
+	}
+	.skills-list-space {
+		margin-bottom: 3rem;
+	}
+	.skills-list-space li {
+		margin-bottom: 1rem; 
+	}
+	.skills-picture {
+		display: none;
+	}
 }

@@ -5,16 +5,14 @@
 	position: fixed;
 	bottom: 0;
 }
-.footer-center {
+.footer-react {
 	display: inline-block;
 	text-align: center;
 	margin-left: 40%;
-	/* border: 1px solid red; */
 }
 .footer-right {
 	float:right;
 	padding: 0 2.75rem;
-	/* border: 1px solid yellow; */
 }
 .footer-text {
 	display: inline-block;
@@ -22,4 +20,14 @@
 	font-size: 1.25rem;
 	text-align: right;
 	margin: 1rem auto;
+}
+@media only screen and (max-width: 1200px) {
+	.footer-react {
+		margin-left: 2.75rem;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.footer-right {
+		display: none;
+	}
 }

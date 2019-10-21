@@ -7,7 +7,7 @@
 	width: 100vw;
 	height: 100vh;
 	background: url('/images/20171023_193346.jpg') center top;
-	background-size: 100vw auto;
+	background-size: auto 110vh;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -25,7 +25,8 @@
 	font-size: 4rem;
 }
 .portfolio-header-background .scroll-down-container {
-	top: 26rem;
+	position: relative;
+	top: 36rem;
 }
 .portfolio-grid {
 	display: grid;
@@ -96,4 +97,42 @@
 	background: url(/images/tortuga-blog-post.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+@media only screen and (max-width: 800px) {
+	.portfolio-header-text-container {
+		left: 3.5rem;
+	}
+	.portfolio-header-text {
+		font-size: 4rem;
+	}
+	.portfolio-header-background .scroll-down-container {
+	top: 50%;
+	}
+	.portfolio h1 {
+		font-size: 3rem;
+	}
+	.project-info {
+		font-size: .75rem;
+		margin-top: 0;
+	}
+	.portfolio-grid {
+		display: block;
+	}
+	.portfolio-img-container {
+		margin-top: 3rem;
+		margin-bottom: 0;
+		height: 10rem;
+		width: 10rem;
+		padding: 0 0 4rem 0;
+	}
+	.nels-img {
+		margin-bottom: 5rem;
+		padding-bottom: 5rem;
+	}
+	.portfolio-rectangle-img-container {
+		padding: 0;
+	}
+	.blog-title {
+		padding: 0;
+	}
 }

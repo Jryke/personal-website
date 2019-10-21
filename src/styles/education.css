@@ -21,7 +21,7 @@
 	position: relative;
 	float: left;
 	top: 33rem;
-	left: 63rem;
+	left: 55%;
 	font-size: 4rem;
 	color: #E7DFDD;
 	text-align: center;
@@ -46,4 +46,50 @@
 .education-details p {
 	font-family: 'Lora';
 	margin: .4rem 0 1rem 0;
+}
+@media only screen and (max-width: 1350px) {
+	.education-header-text-container {
+		position: relative;
+		float: left;
+		top: 31rem;
+		left: 10%;
+		font-size: 4rem;
+		color: #E7DFDD;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 1250px) {
+	.education-header-background {
+		background-size: auto 100vh;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.education h1 {
+		font-size: 4rem;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.education-header-text-container {
+		top: 62%;
+		left: 3rem;
+	}
+	.education-header-text {
+		font-size: 3rem;
+	}
+	.education-header-background .scroll-down-container {
+		top: 58%;
+	}
+	.education {
+		padding: 3rem 1.5rem;
+	}
+	.education-grid {
+		display: block;
+		margin-bottom: 3rem;
+	}
+	.education .body-header {
+		font-size: 3.5rem;
+	}
+	.education-title {
+		text-align: left;
+	}
 }

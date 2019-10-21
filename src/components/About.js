@@ -23,7 +23,7 @@ const About = () => {
 								I grew up in Cambridge, MA.  I have also lived in Boulder, Colorado and Barranquilla, Colombia.  I love projects, playing games, making friends and generally having fun.  I am always looking to progress, learn new skills and continue growing to be a better person.  Most of all I love life and I want to make the most of it.
 							</p>
 						</div>
-						<div className='about-details'>
+						<div className='about-details no-padding-bottom'>
 							<h2 className='about-title right'>My personality</h2>
 							<p className='about-content'>
 								I am a social and outgoing person but also enjoy quiet time to myself.  I like a good conversation but I am also content all alone with my computer or a book.  I’m always looking for a good project to work on because I get the most satisfaction out of producing and being creative.  Simply put, I like to learn things and then use what I learn to make things.
@@ -33,34 +33,32 @@ const About = () => {
 				</div>
 				<div className='background-grey about-padding'>
 					<h1 className='body-header padding-top '>Professional & personal philosophies</h1>
-					<div className='about-grid-col-row'>
-						<div className='about-grid-col-gap'>
-							<div>
-								<h2 className='about-title'>Work smarter... and harder</h2>
-								<p className='about-philosophies-content'>
-									I consider myself to be intelligent, but I also know that intelligence is useless without applying it.  In my professional life (as well as anything that I do), I am a hard worker and I always strive to give my 100% in everything that I do.  I hold to the proverb "any job worth doing is a job worth doing well".  If I am going to put my time and energy into something, I am going to see it through properly; otherwise I am just wasting my time and energy.  Therfore, I take pride in everything I do and I do everything to the best of my ability.
-								</p>
-							</div>
-							<div>
-								<h2 className='about-title'>Do what you love and love what you do</h2>
-								<p className='about-philosophies-content'>
-									Time is the most valuable thing that we have and we need to take advantage of it as much as possible to be happy.  To take advantage of our time, it is important to work doing something that you love to do, otherwise you are wasting your time doing things that don't contribute to your happiness.  Many people work to make money but don't have the time to enjoy it, this is counter-intuitive.  Enjoying what you do is the key to a &quot;successful&quot; lifestyle, not just making money (although money is nice to have too).
-								</p>
-							</div>
+					<div className='about-grid-col-gap'>
+						<div>
+							<h2 className='about-title'>Work smarter... and harder</h2>
+							<p className='about-philosophies-content'>
+								I consider myself to be intelligent, but I also know that intelligence is useless without applying it.  In my professional life (as well as anything that I do), I am a hard worker and I always strive to give my 100% in everything that I do.  I hold to the proverb "any job worth doing is a job worth doing well".  If I am going to put my time and energy into something, I am going to see it through properly; otherwise I am just wasting my time and energy.  Therfore, I take pride in everything I do and I do everything to the best of my ability.
+							</p>
 						</div>
-						<div className='about-grid-col-gap'>
-							<div>
-								<h2 className='about-title'>Create and be creative</h2>
-								<p className='about-philosophies-content'>
-									Growing up, my father was a carpenter and an architect so we had a woodshop in the basement of our house.  I spent a lot of my childhood in the basement making things (including my own toys or boxes to store my toys).  Among other expriences, I believe that this largely shaped my desire to be creative and build things.  I get a lot of satisfaction out of planning a project, executing it and seeing the desired result in the end.  This has played a big part for me becoming a web developer.  I really enjoy the creative process of building web sites and web apps from the beginning to the end.  I read a quote recently that really got my attention: "Be a creator, not a consumer".  Every day people are consuming more information and entertainment online; I want to be a part of creating it, not only consuming it.
-								</p>
-							</div>
-							<div>
-								<h2 className='about-title'>Be a lifelong learner</h2>
-								<p className='about-philosophies-content'>
-									I love to learn and I know that learning is the best use of my time.  I believe that if I am not learning (and enjoying what I am learning), I am wasting my time.  While studying Applied Linguistics to become a teacher, I learned how to be a good student.  By nature I am interested in everything and that drives my desire to always learn more.  My curiousity has helped me to achieve higher in everything that I do professionally and personally.  The desire to learn is what drives me to get up in the morning and processing what I learn helps me sleep at night.  I firmly believe that if you're not learning, you're dying.
-								</p>
-							</div>
+						<div>
+							<h2 className='about-title'>Do what you love and love what you do</h2>
+							<p className='about-philosophies-content'>
+								Time is the most valuable thing that we have and we need to take advantage of it as much as possible to be happy.  To take advantage of our time, it is important to work doing something that you love to do, otherwise you are wasting your time doing things that don't contribute to your happiness.  Many people work to make money but don't have the time to enjoy it, this is counter-intuitive.  Enjoying what you do is the key to a &quot;successful&quot; lifestyle, not just making money (although money is nice to have too).
+							</p>
+						</div>
+					</div>
+					<div className='about-grid-col-gap'>
+						<div>
+							<h2 className='about-title'>Create and be creative</h2>
+							<p className='about-philosophies-content'>
+								Growing up, my father was a carpenter and an architect so we had a woodshop in the basement of our house.  I spent a lot of my childhood in the basement making things (including my own toys or boxes to store my toys).  Among other expriences, I believe that this largely shaped my desire to be creative and build things.  I get a lot of satisfaction out of planning a project, executing it and seeing the desired result in the end.  This has played a big part for me becoming a web developer.  I really enjoy the creative process of building web sites and web apps from the beginning to the end.  I read a quote recently that really got my attention: "Be a creator, not a consumer".  Every day people are consuming more information and entertainment online; I want to be a part of creating it, not only consuming it.
+							</p>
+						</div>
+						<div>
+							<h2 className='about-title'>Be a lifelong learner</h2>
+							<p className='about-philosophies-content'>
+								I love to learn and I know that learning is the best use of my time.  I believe that if I am not learning (and enjoying what I am learning), I am wasting my time.  While studying Applied Linguistics to become a teacher, I learned how to be a good student.  By nature I am interested in everything and that drives my desire to always learn more.  My curiousity has helped me to achieve higher in everything that I do professionally and personally.  The desire to learn is what drives me to get up in the morning and processing what I learn helps me sleep at night.  I firmly believe that if you're not learning, you're dying.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -68,7 +66,7 @@ const About = () => {
 					<h1 className='body-header'>Personal Interests</h1>
 					<div className='about-interests-grid-col'>
 						<div>
-							<div>
+							<div className='about-interests-padding'>
 								<h2 className='about-title'>Travel</h2>
 								<p className='about-content'>
 									I love to travel because I love to see and experience new things.  The world has so much beauty and I want to see all of it.  Travelling also allows me to experience other cultures and ways of thinking.  I often learn new customs while travelling that I can adapt to my own lifestyle.  I believe that this helps me improve who I am as a person and always continue becoming a better person.
