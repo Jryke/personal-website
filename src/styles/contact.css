@@ -60,7 +60,7 @@
 	font-size: 2rem;
 	margin: 0;
 }
-@media only screen and (max-width: 1825px) {
+@media only screen and (max-width: 1650px) {
 	.contact-header-background {
 		background-size: auto 100vh;
 	}
