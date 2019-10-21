@@ -40,6 +40,7 @@ const Education = () => {
 				<h2 className='education-title'>Tortuga Coders</h2>
 				<div className='education-details'>
 					<p>360 hour full-stack JavaScript development bootcamp</p>
+					<p><a href='https://tortugacoders.com/certificates/03/jesse-rykerson' target='_blank' rel='noopener noreferrer'>Certificate Validation</a></p>
 				</div>
 				<h2 className='education-title'>Udemy</h2>
 				<div className='education-details'>
