@@ -33,6 +33,9 @@
 	font-size: 1.5rem;
 	list-style: none;
 }
+.dropdown-nav .intro-nav-link {
+	font-size: 1.25rem;
+}
 .intro-nav-link a:link {
 	color: #E7DFDD;
 	text-decoration: none;
