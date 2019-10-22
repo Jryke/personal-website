@@ -72,18 +72,18 @@ body {
 	z-index: 10;
 	display: block;
 	width: 100%;
-	padding: 1rem 4rem;
+	padding: 0 2rem .5rem 2rem;
 	margin: 0;
 	text-align: left;
 	list-style: none;
 	font-family: inherit;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	overflow: hidden;
 	position: fixed;
 	background: rgba(0, 0, 0, 0.8);
 }
 .dropdown-nav a {
-	line-height: 1.5rem;
+	line-height: 1rem;
 }
 .intro-nav-link {
 	margin: 1rem;
