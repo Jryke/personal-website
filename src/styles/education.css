@@ -7,27 +7,36 @@
 	width: 100vw;
 	height: 100vh;
 	background: url('/images/IMG_1043.jpg') center top;
-	background-size: 100vw auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .education-header-background-overlay {
 	position: absolute;
+	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
+	padding: 4rem;
 	background: rgba(0, 0, 0, 0.5);
 }
 .education-header-text-container {
-	position: relative;
+	position: absolute;
+	display: block;
 	float: left;
-	top: 33rem;
-	left: 55%;
+	bottom: 4rem;
+	right: 3rem;
 	font-size: 4rem;
 	color: #E7DFDD;
 	text-align: center;
 }
 .education-header-background .scroll-down-container {
-	top: 26rem;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 4rem;
 }
 .education-grid {
 	display: grid;
@@ -47,37 +56,19 @@
 	font-family: 'Lora';
 	margin: .4rem 0 1rem 0;
 }
-@media only screen and (max-width: 1350px) {
-	.education-header-text-container {
-		position: relative;
-		float: left;
-		top: 31rem;
-		left: 10%;
-		font-size: 4rem;
-		color: #E7DFDD;
-		text-align: center;
-	}
-}
-@media only screen and (max-width: 1250px) {
-	.education-header-background {
-		background-size: auto 100vh;
-	}
-}
 @media only screen and (max-width: 900px) {
-	.education h1 {
-		font-size: 4rem;
+	.education-header-background-overlay {
+		padding: 2rem;
 	}
-}
-@media only screen and (max-width: 800px) {
 	.education-header-text-container {
-		top: 62%;
-		left: 3rem;
+		bottom: 10rem;
 	}
 	.education-header-text {
 		font-size: 3rem;
+		margin: 0;
 	}
 	.education-header-background .scroll-down-container {
-		top: 58%;
+		bottom: 3rem;
 	}
 	.education {
 		padding: 3rem 1.5rem;
@@ -88,6 +79,9 @@
 	}
 	.education .body-header {
 		font-size: 3.5rem;
+	}
+	.education h1 {
+		font-size: 4rem;
 	}
 	.education-title {
 		text-align: left;

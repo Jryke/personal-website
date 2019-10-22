@@ -4,25 +4,36 @@
 	width: 100vw;
 	height: 100vh;
 	background: url('/images/20170819_183727.jpg') center;
-	background-size: 100vw auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .contact-header-background-overlay {
+	position: absolute;
+	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.2);
+	padding: 4rem;
+	background: rgba(0, 0, 0, 0.3);
 }
 .contact-header-text-container {
+	position: relative;
+	display: block;
   float: right;
   padding: 7rem;
 	font-size: 4rem;
-	width: 26rem;
+	/* width: 26rem; */
 	color: #E7DFDD;
 	text-align: right;
 }
 .contact-header-background .scroll-down-container {
-	top: 2.6rem;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 4rem;
 }
 .contact-padding {
 	padding: 4rem 5rem;
@@ -60,28 +71,44 @@
 	font-size: 2rem;
 	margin: 0;
 }
-@media only screen and (max-width: 1650px) {
+/* @media only screen and (max-width: 1650px) {
 	.contact-header-background {
 		background-size: auto 100vh;
 	}
-}
+} */
 @media only screen and (max-width: 1100px) {
 	.contact-grid-col {
 		display: block;
 	}
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
+	.contact-header-background-overlay {
+		overflow: hidden;
+	}
 	.contact-header-text-container {
-		padding: 2.5rem 2rem;
-		font-size: 2.5rem;
-		width: 20rem;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		bottom: 9rem;
+		font-size: 2rem;
+		padding: 0;
+		width: auto;
+		text-align: center;
+		font-size: 1.5rem; 	
 	}
-	.contact-header-background .scroll-down-container {
+	.contact-header-text {
+		margin: 0;
+	}
+	/* .contact-header-background .scroll-down-container {
 		top: 20%;
-	}
+	} */
 	.contact-name {
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 0;
+		height: 8rem;
 	}
 	.contact-name .jesse {
 		padding-right: 15rem;
@@ -95,9 +122,9 @@
 	.contact-padding {
 		padding: 4rem 1.5rem;
 	}
-	.contact-name {
+	/* .contact-name {
 		margin-bottom: 0;
-	}
+	} */
 	.contact-div {
 		padding: 2rem;
 	}

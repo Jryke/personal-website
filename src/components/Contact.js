@@ -8,7 +8,7 @@ const Contact = () => {
   return (
 		<>
 			<Navbar />
-			<Header componentName={'contact'} text={'contact me'}/>
+			<Header componentName={'contact'} text={'contact'}/>
 			<div className='contact contact-padding'>
       <div className='contact-name'>
         <h1 className='jesse'>Jesse</h1>

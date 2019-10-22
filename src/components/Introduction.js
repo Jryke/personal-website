@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import Footer from './Footer'
 import '../styles/introduction.css'
 
 class Introduction extends React.Component {
@@ -64,7 +63,6 @@ class Introduction extends React.Component {
 						</div>
 					</div>
 				</div>
-				<Footer />
 			</div>
 		)
 	}

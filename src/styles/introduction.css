@@ -2,7 +2,7 @@
 	width: 100vw;
 	height: 100vh;
 	background: url('/images/computer-drink2.JPG') center top;
-	background-size: auto 100vh;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .intro-background-overlay {
@@ -11,8 +11,12 @@
 	background: rgba(255, 255, 255, 0.4);
 }
 .intro-box {
-	position: relative;
-	top: 5rem;
+	position: absolute;
+	margin: auto;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	width: 75rem;
 	height: 45rem;
 	border: .1rem solid black;
@@ -91,16 +95,22 @@
 		top: 10rem
 	}
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	.intro-box {
 		top: 0;
 		width: 100%;
 		height: 100%;
 	}
 	.intro-box-content {
-		top: 8rem;
-		padding-left: auto;
-		padding-right: auto;
+		position: absolute;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
 	}
 	.rykerson {
 		padding-left: 1rem;
@@ -143,4 +153,18 @@
 	/* .intro .footer {
 		display: none;
 	} */
+}
+@media only screen and (max-height: 420px) {
+	.intro-box-content {
+		position: relative;
+	}
+	.jesse {
+		margin-top: 0;
+	}
+	.intro-box-content h2 {
+		margin: 0;
+	}
+	.intro-button {
+		margin: .5rem;
+	}
 }
