@@ -16,7 +16,7 @@ const Portfolio = () => {
 				<div></div>
 				<div className='project-info right'>
 					<h2><a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>New England Language School</a></h2>
-					<a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>{`newenglandlanguage.com/`}</a>
+					<a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>{`www.newenglandlanguage.com/`}</a>
 				</div>
 				<div className='portfolio-img-container'>
 					<a href="https://www.newenglandlanguage.com/" target='_blank' rel='noopener noreferrer'>
@@ -29,8 +29,8 @@ const Portfolio = () => {
 				<div className='project-info right'>
 					<h2><a href="https://coursefill-react.herokuapp.com/" target='_blank' rel='noopener noreferrer'>CourseFill</a></h2>
 					<small>(course registration application)</small>
-					<small>This is enterprise software, the code is not public</small>
-					<small>Please <Link to='/contact'>contact me</Link> with any inquiries</small>
+					<p><a href="https://github.com/Jryke/CourseFill-react" target='_blank' rel='noopener noreferrer'>GitHub front end (React) repository</a></p>
+					<p><a href="https://github.com/Jryke/CourseFill-api" target='_blank' rel='noopener noreferrer'>GitHub back end (API) repository</a></p>
 				</div>
 				<div className='portfolio-img-container portfolio-rectangle-img-container'>
 					<a href="https://coursefill-react.herokuapp.com/" target='_blank' rel='noopener noreferrer'>
